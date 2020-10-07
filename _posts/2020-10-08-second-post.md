@@ -1,7 +1,9 @@
 ---
 date: 2020-10-08
 title: "두번째 글"
-categories: blog
+categories:
+  - blog
+  - private
 tags: blog
 toc: true  
 toc_sticky: true 
