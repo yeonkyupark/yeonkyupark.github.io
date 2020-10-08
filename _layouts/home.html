@@ -1,6 +1,12 @@
 ---
 layout: archive
 ---
+<div class="entries-{{ entries_layout }}" align="right">
+  {% for category in site.categories %}
+    | <a href="/categories/{{ category | first }}"> {{ category | first }}</a> 
+  {% endfor %}
+  |
+</div>
 
 {{ content }}
 
@@ -18,5 +24,7 @@ layout: archive
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
+
+
 
 {% include paginator.html %}
