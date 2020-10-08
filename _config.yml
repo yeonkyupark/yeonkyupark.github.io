@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Park YK"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "I am one of engineers in IT domain."
   location         : "Gumi, Gyeongsangbuk-do, Korea"
   email            : "yeonkyu.park@gmail.com"
@@ -288,3 +288,4 @@ defaults:
       layout: single
       author_profile: true
   # >>>>>>>>>>>>>>>>>>>> 여기까지 추가 됨
+
