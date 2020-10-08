@@ -5,9 +5,8 @@ author_profile: true
 ---
 <div class="entries-{{ entries_layout }}" align="right">
   {% for category in site.categories %}
-    | {% if category[0] == page.category %} ▶ {% endif %} <a href="/categories/{{ category | first }}"> {{ category | first }}</a> 
+    {% if category[0] == page.category %} <u><b> {% endif %} <a href="/categories/{{ category | first }}"> {{ category | first }}</a> {% if category[0] == page.category %} </b></u> {% endif %} &nbsp;&nbsp;
   {% endfor %}
-  |
 </div>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
