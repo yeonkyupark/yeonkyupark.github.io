@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: category
 category: Gallery
 permalink: "/categories/Gallery/"
 author_profile: true

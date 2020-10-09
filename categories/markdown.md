@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: category
 category: Markdown
 permalink: "/categories/Markdown/"
 author_profile: true
