@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: category
 category: Python
 permalink: "/categories/Python/"
 author_profile: true

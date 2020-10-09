@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: category
 category: R
 permalink: "/categories/R/"
 author_profile: true

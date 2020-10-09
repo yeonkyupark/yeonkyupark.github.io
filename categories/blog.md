@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: category
 category: Blog
 permalink: "/categories/Blog/"
 author_profile: true
