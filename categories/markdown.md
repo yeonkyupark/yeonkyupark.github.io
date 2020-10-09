@@ -1,6 +1,6 @@
 ---
 layout: archive
-category: R
+category: Markdown
 author_profile: true
 ---
 
