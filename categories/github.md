@@ -1,6 +1,7 @@
 ---
 layout: archive
 category: Github
+permalink: "/categories/github"
 author_profile: true
 ---
 
