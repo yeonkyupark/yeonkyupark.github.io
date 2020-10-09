@@ -3,6 +3,7 @@ permalink: /about/
 title: "About"
 layout: single
 date: 2020-10-09
+last_modified_at: 2020-10-09
 toc: true  
 toc_sticky: true 
 toc_label: "페이지 목차"
