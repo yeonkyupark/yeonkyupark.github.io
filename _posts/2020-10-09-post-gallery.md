@@ -1,16 +1,17 @@
 ---
-title: "사진 몇장"
+title: "풍경 사진"
 layout: splash
 permalink: /splash-page/
-date: 2020-10-09
+date: 2020-10-08 
+last_modified_at: 2020-10-09
 author_profile: true
-categories:
-  - Gallery
-tags:
-  - gallery
+categories: Gallery
+tags: gallery landscape
+
+published: true
 
 intro: 
-  - excerpt: '일상 사진 모음'
+  - excerpt: '풍경 사진 모음'
 feature_row:
   - image_path: /assets/images/bg.jpg
     title: "해질녁 거미"
