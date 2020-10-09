@@ -1,7 +1,7 @@
 ---
 layout: category
 category: Github
-permalink: "/categories/Github"
+permalink: "/categories/Github/"
 author_profile: true
 ---
 
