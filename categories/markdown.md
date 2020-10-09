@@ -1,6 +1,7 @@
 ---
 layout: archive
 category: Markdown
+permalink: "/categories/Markdown/"
 author_profile: true
 ---
 

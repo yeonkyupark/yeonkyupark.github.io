@@ -1,6 +1,7 @@
 ---
 layout: archive
 category: R
+permalink: "/categories/R/"
 author_profile: true
 ---
 

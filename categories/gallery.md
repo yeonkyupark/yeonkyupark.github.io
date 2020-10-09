@@ -1,6 +1,7 @@
 ---
 layout: archive
 category: Gallery
+permalink: "/categories/Gallery/"
 author_profile: true
 ---
 

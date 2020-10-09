@@ -1,6 +1,7 @@
 ---
 layout: archive
 category: Blog
+permalink: "/categories/Blog/"
 author_profile: true
 ---
 

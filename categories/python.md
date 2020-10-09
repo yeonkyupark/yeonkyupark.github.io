@@ -1,6 +1,7 @@
 ---
 layout: archive
 category: Python
+permalink: "/categories/Python/"
 author_profile: true
 ---
 
