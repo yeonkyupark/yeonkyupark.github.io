@@ -99,7 +99,7 @@ author:
   avatar           : "/assets/images/Profile.jpg"
   bio              : ""
   location         : "KR"
-  email            : "yeonkyu.park@gmail.com"
+  email            : # "yeonkyu.park@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
