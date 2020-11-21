@@ -3,7 +3,7 @@ title: "dplyr package"
 date: 2020-10-06 
 last_modified_at: 2020-10-06
 categories: R
-tags: R, dplyr
+tags:R,dplyr
 ---
 # dplyr
 
@@ -28,21 +28,6 @@ summarise()|행  |집계               |aggregate()
 library(dplyr)
 ```
 
-    
-    Attaching package: 'dplyr'
-    
-    
-    The following objects are masked from 'package:stats':
-    
-        filter, lag
-    
-    
-    The following objects are masked from 'package:base':
-    
-        intersect, setdiff, setequal, union
-    
-    
-    
 
 ## filter
 
@@ -350,12 +335,6 @@ iris %>%
     Petal_Length = mean(Petal.Length)
   )
 ```
-
-    Adding missing grouping variables: `Species`
-    
-    `summarise()` ungrouping output (override with `.groups` argument)
-    
-    
 
 
 <table>
