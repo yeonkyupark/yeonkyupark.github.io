@@ -1,5 +1,5 @@
 ---
-title: "테스트용"
+title: "dplyr package"
 date: 2020-10-06 
 last_modified_at: 2020-10-06
 categories: R
