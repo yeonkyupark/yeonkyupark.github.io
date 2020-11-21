@@ -119,7 +119,7 @@ iris %>%
 ```{r}
 iris %>% slice(1:7)
 ```
-이외에도 *Slice_head*, *slice_tail*, *slice_max*, *slice_min*, *slice_sample* 등이 있다. 
+이외에도 *slice_head*, *slice_tail*, *slice_max*, *slice_min*, *slice_sample* 등이 있다. 
 
 ```{r}
 iris %>% slice_sample(prop = 0.1) # 전체 데이터 중 10% 추출
@@ -133,7 +133,8 @@ iris %>% slice_sample(prop = 0.1) # 전체 데이터 중 10% 추출
 iris %>% rename(Category = Species) %>% slice_head(n=5)
 ```
 
-*select()*를 통해 변경도 가능하지만 해당 컬럼만 남긴다는 특징이 있다.
+*select*를 통해 변경도 가능하지만 해당 컬럼만 남긴다는 특징이 있다.  
+
 ```{r}
 iris %>% select(Category = Species) %>% slice_head(n=5)
 ```
@@ -145,5 +146,3 @@ iris %>% select(Category = Species) %>% slice_head(n=5)
 iris %>% relocate(Species, .before = Sepal.Length) %>% slice_max(Sepal.Length, n=5)
 ```
 
-
-### EOD {.unnumbered}
