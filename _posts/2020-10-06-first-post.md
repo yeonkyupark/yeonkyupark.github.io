@@ -3,8 +3,12 @@ title: "dplyr package"
 date: 2020-10-06 
 last_modified_at: 2020-10-06
 categories: R
-tags:[R,dplyr]
+tags: R dplyr
+toc: true  
+toc_sticky: true 
+toc_label: "페이지 목차"
 ---
+
 # dplyr
 
 `dplyr` 패키지는 데이터프레임을 빠르고 싶게 다룰 수 있는 함수를 제공한다. 조건에 따라 행을 추출할 수도 있고 특정 열을 선별할 수도 있으며 데이터를 그룹으로 나누어 통계자료를 계산할 수도 있다.
