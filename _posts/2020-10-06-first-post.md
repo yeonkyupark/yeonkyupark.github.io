@@ -2,104 +2,346 @@
 title: "테스트용"
 date: 2020-10-06 
 last_modified_at: 2020-10-06
-categories: Blog
-tags: blog
+categories: R
+tags: R, dplyr
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-	echo = TRUE,
-	message = FALSE,
-	warning = FALSE
-)
-```
-
 # dplyr
 
 `dplyr` 패키지는 데이터프레임을 빠르고 싶게 다룰 수 있는 함수를 제공한다. 조건에 따라 행을 추출할 수도 있고 특정 열을 선별할 수도 있으며 데이터를 그룹으로 나누어 통계자료를 계산할 수도 있다.
 
-함수|대상|내용|기본함수
--|-|-|-
-filter()|행|조건에 맞는 행 추출|subset()
-arrange()|행|정렬|sort()
-select()|열|열 추출|데이터[,조건식]
-mutate()|열|열 추가|transform()
-summarise()|행|집계|aggregate()
+함수       |대상|내용               |기본함수
+-----------|----|-------------------|----------------
+filter()   |행  |조건에 맞는 행 추출|subset()
+arrange()  |행  |정렬               |sort()
+select()   |열  |열 추출            |데이터[,조건식]
+mutate()   |열  |열 추가            |transform()
+summarise()|행  |집계               |aggregate()
 
 `%>%` 연산을 통해 함수들을 연결하여 코드를 보다 간결하고 쉽게 작성할 수 있다. 즉, *x %>% f(y)*는 *f(x,y)*와 같은 코드가 된다. 
 
 자세한 내용은 [https://cran.r-project.org/web/packages/dplyr/index.html] 페이지를 참고한다.
 
-```{r}
+
+
+```R
 #install.packages("dplyr")
 library(dplyr)
 ```
 
+    
+    Attaching package: 'dplyr'
+    
+    
+    The following objects are masked from 'package:stats':
+    
+        filter, lag
+    
+    
+    The following objects are masked from 'package:base':
+    
+        intersect, setdiff, setequal, union
+    
+    
+    
 
 ## filter
+
 `filter`는 함수 내 조건식을 만족하는 행을 추출한다.
-```{r}
+
+
+```R
 iris %>% filter(Species == "setosa", Sepal.Length > 5.5)
 ```
+
+
+<table>
+<caption>A data.frame: 3 × 5</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.8</td><td>4.0</td><td>1.2</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>5.7</td><td>4.4</td><td>1.5</td><td>0.4</td><td>setosa</td></tr>
+	<tr><td>5.7</td><td>3.8</td><td>1.7</td><td>0.3</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
 붓꽃의 종이 *setosa*이고 꽃받침의 길이가 5.5 이상인 행만 추출하는 코드이다. 내장함수를 이용하면 다음과 같다.
 
-```{r}
+
+```R
 subset(iris, Species == "setosa" & Sepal.Length > 5.5)
 ```
 
+
+<table>
+<caption>A data.frame: 3 × 5</caption>
+<thead>
+	<tr><th></th><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
+	<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><th scope=row>15</th><td>5.8</td><td>4.0</td><td>1.2</td><td>0.2</td><td>setosa</td></tr>
+	<tr><th scope=row>16</th><td>5.7</td><td>4.4</td><td>1.5</td><td>0.4</td><td>setosa</td></tr>
+	<tr><th scope=row>19</th><td>5.7</td><td>3.8</td><td>1.7</td><td>0.3</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
 참고로, 좀 더 간단하게는 데이터프레임에 바로 조건식을 줄 수도 있다.
-```{r}
+
+
+```R
 iris[iris$Species == "setosa" & iris$Sepal.Length > 5.5, ]
 ```
 
 
+<table>
+<caption>A data.frame: 3 × 5</caption>
+<thead>
+	<tr><th></th><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
+	<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><th scope=row>15</th><td>5.8</td><td>4.0</td><td>1.2</td><td>0.2</td><td>setosa</td></tr>
+	<tr><th scope=row>16</th><td>5.7</td><td>4.4</td><td>1.5</td><td>0.4</td><td>setosa</td></tr>
+	<tr><th scope=row>19</th><td>5.7</td><td>3.8</td><td>1.7</td><td>0.3</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
 ## arrange
+
 `arrange`는 선택/추출된 행을 정렬한다.
 
-```{r}
+
+```R
 iris %>% arrange(Sepal.Length) %>% slice(1:5)
 ```
+
+
+<table>
+<caption>A data.frame: 5 × 5</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>4.3</td><td>3.0</td><td>1.1</td><td>0.1</td><td>setosa</td></tr>
+	<tr><td>4.4</td><td>2.9</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.4</td><td>3.0</td><td>1.3</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.4</td><td>3.2</td><td>1.3</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.5</td><td>2.3</td><td>1.3</td><td>0.3</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
 내림차순(역순)으로 정렬할 경우엔 *desc()*를 사용한다.
 
-```{r}
+
+```R
 iris %>% arrange(desc(Sepal.Length)) %>% slice(1:5)
 ```
 
+
+<table>
+<caption>A data.frame: 5 × 5</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>7.9</td><td>3.8</td><td>6.4</td><td>2.0</td><td>virginica</td></tr>
+	<tr><td>7.7</td><td>3.8</td><td>6.7</td><td>2.2</td><td>virginica</td></tr>
+	<tr><td>7.7</td><td>2.6</td><td>6.9</td><td>2.3</td><td>virginica</td></tr>
+	<tr><td>7.7</td><td>2.8</td><td>6.7</td><td>2.0</td><td>virginica</td></tr>
+	<tr><td>7.7</td><td>3.0</td><td>6.1</td><td>2.3</td><td>virginica</td></tr>
+</tbody>
+</table>
+
+
+
 ## select
+
 `select`는 지정한 컬럼을 선택하는 기능을 한다. 컬럼 지정에는 컬럼 이름을 명시적으로 나타낼 수 있고 `:` 연산자를 통해 범위를 지정할 수도 있다. 또한 *starts_with()*, *ends_with()*, *matches()*, *contains()* 함수를 통해 조건을 지정할 수도 있다. `!` 연사자를 이용해 해당 컬럼을 뺄 수도 있다.
 
-```{r}
+
+```R
 iris %>% select(Sepal.Length, Species) %>% slice(1:5)
 ```
-```{r}
+
+
+<table>
+<caption>A data.frame: 5 × 2</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Species</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>setosa</td></tr>
+	<tr><td>4.9</td><td>setosa</td></tr>
+	<tr><td>4.7</td><td>setosa</td></tr>
+	<tr><td>4.6</td><td>setosa</td></tr>
+	<tr><td>5.0</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
+
+```R
 iris %>% select(!c(Sepal.Length, Species)) %>% slice(1:5)
 ```
 
-```{r}
+
+<table>
+<caption>A data.frame: 5 × 3</caption>
+<thead>
+	<tr><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>3.5</td><td>1.4</td><td>0.2</td></tr>
+	<tr><td>3.0</td><td>1.4</td><td>0.2</td></tr>
+	<tr><td>3.2</td><td>1.3</td><td>0.2</td></tr>
+	<tr><td>3.1</td><td>1.5</td><td>0.2</td></tr>
+	<tr><td>3.6</td><td>1.4</td><td>0.2</td></tr>
+</tbody>
+</table>
+
+
+
+
+```R
 iris %>% select(starts_with("Sepal")) %>% slice(1:5)
 ```
-```{r}
+
+
+<table>
+<caption>A data.frame: 5 × 2</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>3.5</td></tr>
+	<tr><td>4.9</td><td>3.0</td></tr>
+	<tr><td>4.7</td><td>3.2</td></tr>
+	<tr><td>4.6</td><td>3.1</td></tr>
+	<tr><td>5.0</td><td>3.6</td></tr>
+</tbody>
+</table>
+
+
+
+
+```R
 iris %>% select(contains(c("Length", "Species"))) %>% slice(1:5)
 ```
-```{r}
+
+
+<table>
+<caption>A data.frame: 5 × 3</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Petal.Length</th><th scope=col>Species</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>1.4</td><td>setosa</td></tr>
+	<tr><td>4.9</td><td>1.4</td><td>setosa</td></tr>
+	<tr><td>4.7</td><td>1.3</td><td>setosa</td></tr>
+	<tr><td>4.6</td><td>1.5</td><td>setosa</td></tr>
+	<tr><td>5.0</td><td>1.4</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
+
+```R
 iris %>% select(Sepal.Length:Petal.Width) %>% slice(1:5)
 ```
 
+
+<table>
+<caption>A data.frame: 5 × 4</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>3.5</td><td>1.4</td><td>0.2</td></tr>
+	<tr><td>4.9</td><td>3.0</td><td>1.4</td><td>0.2</td></tr>
+	<tr><td>4.7</td><td>3.2</td><td>1.3</td><td>0.2</td></tr>
+	<tr><td>4.6</td><td>3.1</td><td>1.5</td><td>0.2</td></tr>
+	<tr><td>5.0</td><td>3.6</td><td>1.4</td><td>0.2</td></tr>
+</tbody>
+</table>
+
+
+
 ## mutate
+
 `mutate`는 새로운 컬럼을 만들 때 사용할 수 있다.
 
-```{r}
+
+```R
 iris %>% mutate(Sepal.Length_10 = Sepal.Length * 10) %>% slice(1:5)
 ```
-```{r}
+
+
+<table>
+<caption>A data.frame: 5 × 6</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th><th scope=col>Sepal.Length_10</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>3.5</td><td>1.4</td><td>0.2</td><td>setosa</td><td>51</td></tr>
+	<tr><td>4.9</td><td>3.0</td><td>1.4</td><td>0.2</td><td>setosa</td><td>49</td></tr>
+	<tr><td>4.7</td><td>3.2</td><td>1.3</td><td>0.2</td><td>setosa</td><td>47</td></tr>
+	<tr><td>4.6</td><td>3.1</td><td>1.5</td><td>0.2</td><td>setosa</td><td>46</td></tr>
+	<tr><td>5.0</td><td>3.6</td><td>1.4</td><td>0.2</td><td>setosa</td><td>50</td></tr>
+</tbody>
+</table>
+
+
+
+
+```R
 iris %>% mutate(Sepal.Length_F = ifelse(Sepal.Length>=5.0, "Big", "Normal")) %>% slice(1:5)
 ```
 
 
+<table>
+<caption>A data.frame: 5 × 6</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th><th scope=col>Sepal.Length_F</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>3.5</td><td>1.4</td><td>0.2</td><td>setosa</td><td>Big   </td></tr>
+	<tr><td>4.9</td><td>3.0</td><td>1.4</td><td>0.2</td><td>setosa</td><td>Normal</td></tr>
+	<tr><td>4.7</td><td>3.2</td><td>1.3</td><td>0.2</td><td>setosa</td><td>Normal</td></tr>
+	<tr><td>4.6</td><td>3.1</td><td>1.5</td><td>0.2</td><td>setosa</td><td>Normal</td></tr>
+	<tr><td>5.0</td><td>3.6</td><td>1.4</td><td>0.2</td><td>setosa</td><td>Big   </td></tr>
+</tbody>
+</table>
+
+
+
 ## summarise
+
 `summarise`는 통계자료를 추출할 때 사용할 수 있으며 *group_by()*와 주로 함께 사용한다.
 
-```{r}
+
+```R
 iris %>% 
   group_by(Species) %>%
   select(Sepal.Length, Petal.Length) %>%
@@ -109,40 +351,171 @@ iris %>%
   )
 ```
 
+    Adding missing grouping variables: `Species`
+    
+    `summarise()` ungrouping output (override with `.groups` argument)
+    
+    
+
+
+<table>
+<caption>A tibble: 3 × 3</caption>
+<thead>
+	<tr><th scope=col>Species</th><th scope=col>Sepal_Length</th><th scope=col>Petal_Length</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>setosa    </td><td>5.006</td><td>1.462</td></tr>
+	<tr><td>versicolor</td><td>5.936</td><td>4.260</td></tr>
+	<tr><td>virginica </td><td>6.588</td><td>5.552</td></tr>
+</tbody>
+</table>
+
+
 
 ## 그외 함수들
+
 그외 유용한 함수들이다.
 
 ### slice
+
 `slice`는 행을 주어진 범위로 추출한다.
 
-```{r}
+
+```R
 iris %>% slice(1:7)
 ```
-이외에도 *slice_head*, *slice_tail*, *slice_max*, *slice_min*, *slice_sample* 등이 있다. 
 
-```{r}
+
+<table>
+<caption>A data.frame: 7 × 5</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>3.5</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.9</td><td>3.0</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.7</td><td>3.2</td><td>1.3</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.6</td><td>3.1</td><td>1.5</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>5.0</td><td>3.6</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>5.4</td><td>3.9</td><td>1.7</td><td>0.4</td><td>setosa</td></tr>
+	<tr><td>4.6</td><td>3.4</td><td>1.4</td><td>0.3</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
+이외에도 *Slice_head*, *slice_tail*, *slice_max*, *slice_min*, *slice_sample* 등이 있다. 
+
+
+```R
 iris %>% slice_sample(prop = 0.1) # 전체 데이터 중 10% 추출
 ```
 
 
+<table>
+<caption>A data.frame: 15 × 5</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>4.7</td><td>3.2</td><td>1.6</td><td>0.2</td><td>setosa    </td></tr>
+	<tr><td>5.5</td><td>2.4</td><td>3.8</td><td>1.1</td><td>versicolor</td></tr>
+	<tr><td>4.9</td><td>3.1</td><td>1.5</td><td>0.1</td><td>setosa    </td></tr>
+	<tr><td>5.6</td><td>3.0</td><td>4.5</td><td>1.5</td><td>versicolor</td></tr>
+	<tr><td>7.9</td><td>3.8</td><td>6.4</td><td>2.0</td><td>virginica </td></tr>
+	<tr><td>5.4</td><td>3.7</td><td>1.5</td><td>0.2</td><td>setosa    </td></tr>
+	<tr><td>4.3</td><td>3.0</td><td>1.1</td><td>0.1</td><td>setosa    </td></tr>
+	<tr><td>4.7</td><td>3.2</td><td>1.3</td><td>0.2</td><td>setosa    </td></tr>
+	<tr><td>6.4</td><td>2.8</td><td>5.6</td><td>2.2</td><td>virginica </td></tr>
+	<tr><td>5.0</td><td>2.3</td><td>3.3</td><td>1.0</td><td>versicolor</td></tr>
+	<tr><td>5.7</td><td>2.9</td><td>4.2</td><td>1.3</td><td>versicolor</td></tr>
+	<tr><td>6.7</td><td>3.3</td><td>5.7</td><td>2.5</td><td>virginica </td></tr>
+	<tr><td>5.2</td><td>3.5</td><td>1.5</td><td>0.2</td><td>setosa    </td></tr>
+	<tr><td>4.4</td><td>3.0</td><td>1.3</td><td>0.2</td><td>setosa    </td></tr>
+	<tr><td>4.9</td><td>3.0</td><td>1.4</td><td>0.2</td><td>setosa    </td></tr>
+</tbody>
+</table>
+
+
+
 ### rename
+
 `rename`은 컬럼명을 변경한다.
 
-```{r}
+
+```R
 iris %>% rename(Category = Species) %>% slice_head(n=5)
 ```
 
-*select*를 통해 변경도 가능하지만 해당 컬럼만 남긴다는 특징이 있다.  
 
-```{r}
+<table>
+<caption>A data.frame: 5 × 5</caption>
+<thead>
+	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Category</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>5.1</td><td>3.5</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.9</td><td>3.0</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.7</td><td>3.2</td><td>1.3</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>4.6</td><td>3.1</td><td>1.5</td><td>0.2</td><td>setosa</td></tr>
+	<tr><td>5.0</td><td>3.6</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
+*select()*를 통해 변경도 가능하지만 해당 컬럼만 남긴다는 특징이 있다.
+
+
+```R
 iris %>% select(Category = Species) %>% slice_head(n=5)
 ```
 
+
+<table>
+<caption>A data.frame: 5 × 1</caption>
+<thead>
+	<tr><th scope=col>Category</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>setosa</td></tr>
+	<tr><td>setosa</td></tr>
+	<tr><td>setosa</td></tr>
+	<tr><td>setosa</td></tr>
+	<tr><td>setosa</td></tr>
+</tbody>
+</table>
+
+
+
 ### relocate
+
 `relocate`는 특정 컬럼을 지정한 위치 앞으로 옮긴다.
 
-```{r}
+
+```R
 iris %>% relocate(Species, .before = Sepal.Length) %>% slice_max(Sepal.Length, n=5)
 ```
+
+
+<table>
+<caption>A data.frame: 5 × 5</caption>
+<thead>
+	<tr><th scope=col>Species</th><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>virginica</td><td>7.9</td><td>3.8</td><td>6.4</td><td>2.0</td></tr>
+	<tr><td>virginica</td><td>7.7</td><td>3.8</td><td>6.7</td><td>2.2</td></tr>
+	<tr><td>virginica</td><td>7.7</td><td>2.6</td><td>6.9</td><td>2.3</td></tr>
+	<tr><td>virginica</td><td>7.7</td><td>2.8</td><td>6.7</td><td>2.0</td></tr>
+	<tr><td>virginica</td><td>7.7</td><td>3.0</td><td>6.1</td><td>2.3</td></tr>
+</tbody>
+</table>
+
 
