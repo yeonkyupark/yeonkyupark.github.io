@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Park YK"
-  avatar           : "/assets/images/Profile.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Engineer on Big Data Analytics, Smart Factory"
   location         : "KR"
   email            : # "yeonkyu.park@gmail.com"
