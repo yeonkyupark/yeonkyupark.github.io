@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "About"
+  - title: "?"
     url: /about/
-  - title: "Archive"
+  - title: "Σ"
     url: /year-archive/
-  - title: "Tag"
+  - title: "#"
     url: /tags/
