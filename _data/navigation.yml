@@ -8,3 +8,9 @@ main:
     url: /tags/
   - title: "Category"
     url: /categories/
+
+tags:
+  - title: Tags
+    children:
+      - title: "Tags"
+        url: /tags/
