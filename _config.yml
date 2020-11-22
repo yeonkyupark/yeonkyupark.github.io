@@ -97,11 +97,11 @@ author:
   avatar           : "/assets/images/profile.jpg"
   bio              : "Engineer on Big Data Analytics, Smart Factory"
   location         : "KR"
-  email            : # "yeonkyu.park@gmail.com"
+  email            : "yeonkyu.park@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "yeonkyu.park@gmail.com"
+      # url: "yeonkyu.park@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://blog.naver.com/fr2an0982"
