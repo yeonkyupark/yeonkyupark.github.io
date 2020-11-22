@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en"
-title                    : "Dev.Log.YK - 느린IT"
+title                    : "Dev.Log.YK - SLOWIT"
 title_separator          : "-"
-subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Park YK"
 description              : "Smart Factory, Big Data, "
 url                      : "https://yeonkyupark.github.io"
