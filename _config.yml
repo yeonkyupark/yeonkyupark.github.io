@@ -15,7 +15,7 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko"
+locale                   : "en"
 title                    : "Dev.Log.YK - 느린IT"
 title_separator          : "-"
 subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead

@@ -2,13 +2,10 @@
 title: "dplyr package"
 date: 2020-11-22 
 last_modified_at: 2020-11-22
-categories: R
 tags: R dplyr
 toc: true  
 toc_sticky: true 
 toc_label: "페이지 목차"
-sidebar:
-  nav: "tags"
 ---
 
 # dplyr
