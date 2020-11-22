@@ -7,6 +7,8 @@ tags: R dplyr
 toc: true  
 toc_sticky: true 
 toc_label: "페이지 목차"
+sidebar:
+  nav: "Main"
 ---
 
 # dplyr
