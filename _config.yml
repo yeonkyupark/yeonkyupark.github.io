@@ -12,9 +12,7 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-them                     : minima
-remote_theme             : benbalter/retlab
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
@@ -97,7 +95,7 @@ analytics:
 author:
   name             : "Park YK"
   avatar           : "/assets/images/Profile.jpg"
-  bio              : ""
+  bio              : "Engineer on Big Data Analytics, Smart Factory"
   location         : "KR"
   email            : # "yeonkyu.park@gmail.com"
   links:
@@ -112,7 +110,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/yk09.park"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
