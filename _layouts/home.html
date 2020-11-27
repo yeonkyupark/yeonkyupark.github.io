@@ -10,6 +10,13 @@ layout: archive
 </div>
 <!-- 카테고리 추가 E -->
 
+<!-- Collection 추가 S -->
+{% for DA in site.DA %}
+  <h2>{{ DA.name }} - {{ staff_member.position }}</h2>
+  <p>{{ DA.content | markdownify }}</p>
+{% endfor %}
+<!-- Collection 추가 E -->
+
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
