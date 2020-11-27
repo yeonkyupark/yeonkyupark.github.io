@@ -293,10 +293,4 @@ defaults:
       share: true
       related: true
   # >>>>>>>>>>>>>>>>>>>> 여기까지 추가 됨
-
-collections:
-  DA:
-    output: true
-  ADP:
-    output: true
-
+  
