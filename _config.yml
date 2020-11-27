@@ -295,6 +295,8 @@ defaults:
   # >>>>>>>>>>>>>>>>>>>> 여기까지 추가 됨
 
 collections:
-  - DA
-  - ADP
+  DA:
+    output: true
+  ADP:
+    output: true
 
