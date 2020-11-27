@@ -12,7 +12,11 @@ layout: archive
 
 <!-- Collection 추가 S -->
 {% for DA in site.DA %}
-  <h2>{{ DA.name }} - {{ staff_member.position }}</h2>
+  <h2>
+    <a href="{{ staff_member.url }}">
+      {{ DA.name }} - {{ DA.position }}
+    </a>
+  </h2>
   <p>{{ DA.content | markdownify }}</p>
 {% endfor %}
 <!-- Collection 추가 E -->
