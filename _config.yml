@@ -294,3 +294,7 @@ defaults:
       related: true
   # >>>>>>>>>>>>>>>>>>>> 여기까지 추가 됨
 
+collections:
+  - DA
+  - ADP
+
