@@ -1,7 +1,7 @@
 ---
 title: "neuralnet"
-date: 2020-11-22 
-last_modified_at: 2020-11-22
+date: 2020-12-01 
+last_modified_at: 2020-12-02
 categories: R
 tags: R neuralnet
 toc: true  
