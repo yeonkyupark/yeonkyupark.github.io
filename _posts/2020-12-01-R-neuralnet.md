@@ -1,5 +1,5 @@
 ---
-title: "neuralnet"
+title: "neuralnet - R"
 date: 2020-12-01 
 last_modified_at: 2020-12-02
 categories: R
