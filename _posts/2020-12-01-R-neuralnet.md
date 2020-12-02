@@ -4,6 +4,7 @@ date: 2020-12-01
 last_modified_at: 2020-12-02
 categories: R
 tags: R neuralnet
+permalink: /:categories/:title
 toc: true  
 ---
 
