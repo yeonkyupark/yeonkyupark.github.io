@@ -69,7 +69,7 @@ barplot(r.tdm.mtx.sorted[1:10], col = colors, ylim = c(0,6))
 legend("topright", names(r.tdm.mtx.sorted[1:10]), fill = colors, bty ="n", ncol = 3, cex = 0.7)
 ```
 
-![](https://github.com/yeonkyupark/R/blob/main/text-mining_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](https://raw.githubusercontent.com/yeonkyupark/R/main/text-mining_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
 # wordcloud
@@ -77,7 +77,7 @@ set.seed(1234)
 wordcloud(names(r.tdm.mtx.sorted), r.tdm.mtx.sorted, min.freq = 3, random.order = F, rot.per=0.35, colors = brewer.pal(8, "Dark2"), scale = c(4, 0.3))
 ```
 
-![](https://github.com/yeonkyupark/R/blob/main/text-mining_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](https://raw.githubusercontent.com/yeonkyupark/R/main/text-mining_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 -----
 
