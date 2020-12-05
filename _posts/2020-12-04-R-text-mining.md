@@ -62,8 +62,9 @@ r.tdm.mtx.sorted[1:10]
     ## environment    software       users  facilities 
     ##           4           4           4           3
 
-``` r
+
 # draw barplot
+``` r
 colors = rainbow(10)
 barplot(r.tdm.mtx.sorted[1:10], col = colors, ylim = c(0,6))
 legend("topright", names(r.tdm.mtx.sorted[1:10]), fill = colors, bty ="n", ncol = 3, cex = 0.7)
@@ -71,8 +72,9 @@ legend("topright", names(r.tdm.mtx.sorted[1:10]), fill = colors, bty ="n", ncol 
 
 ![](https://raw.githubusercontent.com/yeonkyupark/R/main/text-mining_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
-``` r
+
 # wordcloud
+``` r
 set.seed(1234)
 wordcloud(names(r.tdm.mtx.sorted), r.tdm.mtx.sorted, min.freq = 3, random.order = F, rot.per=0.35, colors = brewer.pal(8, "Dark2"), scale = c(4, 0.3))
 ```
