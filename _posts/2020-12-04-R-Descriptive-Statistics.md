@@ -1,5 +1,5 @@
 ---
-title: "Descriptive Statistics"
+title: "Descriptive Staticstics"
 date: 2020-12-07 
 last_modified_at: 2020-12-07
 categories: R
@@ -8,10 +8,7 @@ permalink: /:categories/:title
 toc: true  
 ---
 
-기술 통계 (Descriptive Staticstics)
-================
-
-# 기술 통계 (Descriptive Statistics)
+# 기술 통계 (Descriptive Staticstics)
 
 ``` r
 # 사용 데이터: R 내장 데이터셋
