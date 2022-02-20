@@ -1,7 +1,7 @@
 # github pages
 
 ## github pages  
-* [https://yeonkyupark.github.io/]
+* [https://yeonkyupark.github.io/] → https://ykblog.netlify.app/
 
 ## TIL - Today I Learned  
 그날 그날 배운것을 잊지 않게 기록을 남긴다.  
