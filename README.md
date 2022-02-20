@@ -1,6 +1,4 @@
-# github pages
-
-## github pages  
+## Github Pages  
 * [https://yeonkyupark.github.io/](https://yeonkyupark.github.io/) → [https://ykblog.netlify.app/](https://ykblog.netlify.app/)
 
 ## TIL - Today I Learned  
