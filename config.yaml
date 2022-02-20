@@ -17,6 +17,10 @@ menu:
   main:
     - name: About
       url: /about/
+    - name: WILL
+      url: https://yeonkyupark.github.io/WILL
+    - name: TIL
+      url: https://yeonkyupark.github.io/TIL2022
     - name: GitHub
       url: https://yeonkyupark.github.io/
     - name: Instagram
