@@ -1,0 +1,16 @@
+---
+title: 평균
+author: YK
+date: '2022-02-22'
+slug: mean
+categories:
+  - blog
+tags:
+  - R
+  - mean
+---
+
+```{r}
+within(iris, plot(Sepal.Length, Sepal.Width))
+```
+
