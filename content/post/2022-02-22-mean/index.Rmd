@@ -10,6 +10,10 @@ tags:
   - mean
 ---
 
+## r code
+
+연습.
+
 ```{r}
 within(iris, plot(Sepal.Length, Sepal.Width))
 ```
