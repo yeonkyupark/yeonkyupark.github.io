@@ -1,0 +1,12 @@
+---
+title: tseting deploy
+author: YK
+date: '2022-02-23'
+slug: tseting-deploy
+categories:
+  - blog
+tags:
+  - R
+---
+
+testing deployment.
