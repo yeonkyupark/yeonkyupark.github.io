@@ -21,7 +21,7 @@ menu:
     - name: WILL
       url: https://yeonkyupark.github.io/WILL
       weight: 2
-    - name: TIL
+    - name: TIL2022
       url: https://yeonkyupark.github.io/TIL2022
       weight: 3
     - name: GitHub
