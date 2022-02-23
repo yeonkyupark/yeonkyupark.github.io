@@ -2,7 +2,7 @@ baseurl: https://ykblog.netlify.app/
 languageCode: ko-KR
 title: YK logs
 theme: hugo-lithium
-googleAnalytics: ''
+googleAnalytics: 'G-SW32RYNF30'
 disqusShortname: 'yeonkyupark-github-io'
 ignoreFiles:
   - \.Rmd$
