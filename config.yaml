@@ -1,6 +1,6 @@
 baseurl: https://ykblog.netlify.app/
 languageCode: ko-KR
-title: YK logs
+title: YK Blog
 theme: hugo-lithium
 googleAnalytics: 'G-SW32RYNF30'
 disqusShortname: 'yeonkyupark-github-io'
@@ -17,18 +17,23 @@ menu:
   main:
     - name: About
       url: /about/
+      weight:  1
     - name: WILL
       url: https://yeonkyupark.github.io/WILL
+      weight: 2
     - name: TIL
       url: https://yeonkyupark.github.io/TIL2022
+      weight: 3
     - name: GitHub
-      url: https://yeonkyupark.github.io/
+      url: https://github.com/yeonkyupark/
+      weight: 4
     - name: Instagram
       url: https://www.instagram.com/yeonkyu.park/
+      weight: 5
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
-  description: A website built through Hugo and blogdown.
+  description: A website for Big data, Machine Learning, Deep Learning, Artificial Intelligence and Smart Factory
   favicon: favicon.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
@@ -37,7 +42,7 @@ params:
   highlightjsTheme: github
   highlightjsVersion: 9.12.0
   logo:
-    alt: Logo
+    alt: YK when young
     height: 50
     url: logo.png
     width: 50
