@@ -16,4 +16,3 @@
 R을 이용한 데이터 분석 관련 내용을 기록한다.
 * [https://yeonkyupark.github.io/DAwR/](https://yeonkyupark.github.io/DAwR/)
 
-
