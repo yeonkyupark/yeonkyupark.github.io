@@ -22,7 +22,7 @@ menu:
       url: https://yeonkyupark.github.io/WILL
       weight: 2
     - name: TIL2022
-      url: https://yeonkyupark.github.io/TIL2022
+      url: https://kconsult.gitbook.io/til-2022/
       weight: 3
     - name: DAwR
       url: https://yeonkyupark.github.io/DAwR
