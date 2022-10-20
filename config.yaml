@@ -19,7 +19,7 @@ menu:
       url: /about/
       weight:  1
     - name: WILL
-      url: https://yeonkyupark.github.io/WILL
+      url: https://kconsult.gitbook.io/kwill/
       weight: 2
     - name: TIL2022
       url: https://kconsult.gitbook.io/til-2022/
