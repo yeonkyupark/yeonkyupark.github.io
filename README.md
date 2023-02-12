@@ -12,7 +12,3 @@
 살면서 배운 지혜를 남긴다.
 * [https://yeonkyupark.github.io/WILL/](https://yeonkyupark.github.io/WILL/)
 
-## DAwR - Data Analytics with R
-R을 이용한 데이터 분석 관련 내용을 기록한다.
-* [https://yeonkyupark.github.io/DAwR/](https://yeonkyupark.github.io/DAwR/)
-
