@@ -57,4 +57,18 @@ body {
   ![image](https://github.com/yeonkyupark/yeonkyupark.github.io/assets/72383349/d2ee6ffe-75fa-4559-9c72-c84a6c2e5231)
 
 
+## 추가 내용
+
+`v6.2.3` 기준 아래 경로 css 파일 변경만으로 웹 폰트 적용이 가능하다.
+
+`/_sass/addon/variables.scss`{: .filepath}
+
+
+```css
+/* fonts */
+
+/* $font-family-base: 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default; */
+$font-family-base: 'Noto Sans KR', sans-serif !default;
+$font-family-heading: Lato, 'Microsoft Yahei', sans-serif !default;
+```
 
