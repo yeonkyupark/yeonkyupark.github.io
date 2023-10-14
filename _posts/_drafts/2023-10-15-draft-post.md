@@ -1,7 +1,7 @@
 ---
-title: Github + jekyll theme(Chirpy)
+title: 작성 중
 author: yk
-date: 2023-10-14 09:14:00 +0900
+date: 2023-10-15 09:00:00
 categories: [Project]
 tags: [github, jekyll, chirpy]
 ---
