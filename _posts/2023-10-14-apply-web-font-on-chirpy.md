@@ -23,7 +23,7 @@ tags: [jekyll, chirpy]
 
 아래 경로에 있는 파일에 웹 폰트를 적용한다.
 
-`/_sass/addon/commons.scss`{: .filepath}
+- `/_sass/addon/commons.scss`{: .filepath}
 
 scss 파일 가장 윗 줄에 위에서 선택한 코드를 복사한다.
 
@@ -61,7 +61,7 @@ body {
 
 `v6.2.3` 기준 아래 경로 css 파일 변경만으로 웹 폰트 적용이 가능하다.
 
-`/_sass/addon/variables.scss`{: .filepath}
+- `/_sass/addon/variables.scss`{: .filepath}
 
 
 ```css
