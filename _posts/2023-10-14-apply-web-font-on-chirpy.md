@@ -68,7 +68,7 @@ body {
 /* fonts */
 
 /* $font-family-base: 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default; */
-$font-family-base: 'Noto Sans KR', sans-serif !default;
-$font-family-heading: Lato, 'Microsoft Yahei', sans-serif !default;
+font-family-base: 'Noto Sans KR', sans-serif !default;
+font-family-heading: Lato, 'Microsoft Yahei', sans-serif !default;
 ```
 
