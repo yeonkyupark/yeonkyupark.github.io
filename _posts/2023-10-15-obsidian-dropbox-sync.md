@@ -10,7 +10,6 @@ tags: [obsidian, dropbox, sync]
 
 옵시디언과 드랍박스(Dropbox) 연동을 하기 위한 준비물이다.
 
-> [!준비물]
 > - `Obsidian` 최신 버전
 > - 커뮤니티 플러그인 `Remotely Save` 최신 버전
 > - `Dropbox` 계정
