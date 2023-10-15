@@ -39,7 +39,6 @@ tags: [github, jekyll, chirpy]
 
 아래 준비물이 갖춰져 있어야 한다. 준비가 되었다면 [설치 가이드](https://chirpy.cotes.page/posts/getting-started/)에 따라 Config 설정 및 로컬에서 정상 동작을 확인한다.
 
-준비물
 > - [Ruby](https://www.ruby-lang.org/ko/)
 > - [Jekyll](https://jekyllrb-ko.github.io/)
 > - [nodejs](https://nodejs.org/ko)
