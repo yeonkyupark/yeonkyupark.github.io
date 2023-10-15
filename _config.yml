@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: ㄴㄹㄱㅅㅈ # the main title
 
-tagline: 데이터 사이언티스트 # it will display as the sub-title
+tagline: ML Engineer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   big data, AI, machine learning, deep learning, smart factory for manufacturing.
