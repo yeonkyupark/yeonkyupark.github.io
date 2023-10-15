@@ -68,7 +68,7 @@ Unordered list
 	- 대봉
 ```
 
-- - 사과
+- 사과
 	- 부사
 	- 홍옥
 - 감
@@ -106,10 +106,10 @@ Unordered list
 ## 인용문
 
 ```
-> `인용문` 예제입니다.
+> 인용문 예제입니다.
 ```
 
-> `인용문` 예제입니다.
+> 인용문 예제입니다.
 
 ## 프롬프트
 
@@ -141,15 +141,9 @@ Unordered list
 > An example showing the `danger` type prompt.
 {: .prompt-danger }
 
-참고로 callout은 아래와 같이 출력 된다.
-
-```
-> [!Note]
-> callout 예제입니다.
-```
-
-> [!Note]
-> callout 예제입니다.
+<div class="callout callout-info" markdown="span">
+This is a callout. It can be used to make an aside without disrupting the flow of the main document.
+</div>
 
 ## 표
 
