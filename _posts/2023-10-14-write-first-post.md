@@ -67,11 +67,13 @@ bundle
 
 \_config.yml 파일 내 일부 항목을 본인에 맞게 수정한다.
 
-- lang: ko
-- timezone: Asia/Seoul
-- title: ㄴㄹㄱㅅㅈ
-- url: "https://yeonkyupark.github.io"
-- avatar: "/assets/img/avatar.jpg"
+| 항목     | 값                              |
+| -------- | ------------------------------- |
+| lang     | ko                              |
+| timezone | Asia/Seoul                      |
+| title    | ㄴㄹㄱㅅㄴ                      |
+| url      | "https://yeonkyupark.github.io" |
+| avatar   | "/assets/img/avatar.jpg"        |
 
 `avatar` 항목은 해당 경로에 해당 이미지 파일이 존재해야 한다.  이미지가 정상적으로 나오지 않으며 CDN 이미지 설정을 주석 처리 한다.
 
