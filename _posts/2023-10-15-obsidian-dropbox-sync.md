@@ -1,3 +1,11 @@
+---
+title: 옵시디언과 Dropbox를 연동해 보자
+author: yk
+date: 2023-10-15 10:38
+categories: Resource
+tags: [obsidian, dropbox, sync]
+---
+
 ## 준비물
 
 옵시디언과 드랍박스(Dropbox) 연동을 하기 위한 준비물이다.
