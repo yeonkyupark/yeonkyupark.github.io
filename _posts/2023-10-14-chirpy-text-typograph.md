@@ -1,4 +1,12 @@
 
+---
+title: Chirpy Theme에서 사용하는 마크다운 문법을 알아보자
+author: yk
+date: 2023-10-15 22:00
+categories: Resource
+tags: [chirpy, markdown]
+---
+
 자세한 내용은 Chirpy Theme 공식 사이트에서 제공하는 [가이드](https://chirpy.cotes.page/posts/text-and-typography/)를 참고하자.
 
 ## 해더
