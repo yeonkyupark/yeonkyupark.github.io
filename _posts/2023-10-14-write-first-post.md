@@ -33,6 +33,9 @@ tags: [github, jekyll, chirpy]
 
 검색을 통해 찾은 테마는 [Jekyll Theme](http://jekyllthemes.org/) 중 인기 있는  [Chirpy Theme](http://jekyllthemes.org/themes/jekyll-theme-chirpy/)였다.
 
+![](http://jekyllthemes.org/thumbnails/chirpy.png)
+
+
 ## 테마 환경 설정 및 적용
 
 ### 사전 준비
