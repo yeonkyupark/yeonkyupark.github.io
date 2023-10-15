@@ -20,11 +20,11 @@ tags: [github, jekyll, chirpy]
 
 깃허브 계정은 인터넷 검색으로 해결하자. 수많은 중복 자료가 있을 듯 하다. 계정이 없다면 아래 계정 신청 사이트에서 만들도록 한다.
 
-- [Sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+- 깃허브 계정등록: [Sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 
 ## 적용할 테마 선정
 
-깃허브 페이지에서도 몇몇 테마를 제공한다. 내용에 집중한다면 불편함 없이 사용이 가능하다고 생각된다. 하지만 심미적인 부분과 기능적인 부분에서 아쉬움은 어쩔 수 없는 듯 하다. 얼마 전 인터넷 검색을 통해 본 사이트는 깃허브에 블로그를 만들는 기회를 재공했다.
+깃허브 페이지에서도 몇몇 테마를 제공한다. 내용에 집중한다면 불편함 없이 사용이 가능하다고 생각된다. 하지만 심미적인 부분과 기능적인 부분에서 보이는 아쉬움은 어쩔 수 없는 듯 하다. 얼마 전 인터넷 검색을 통해 본 사이트는 깃허브에 블로그를 만들는 기회를 재공했다.
 
 - 깔끔한 디자인
 - 다양한 기능
