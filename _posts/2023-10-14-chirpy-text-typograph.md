@@ -1,4 +1,3 @@
-
 ---
 title: Chirpy Theme에서 사용하는 마크다운 문법을 알아보자
 author: yk
