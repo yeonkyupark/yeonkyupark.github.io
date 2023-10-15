@@ -33,7 +33,7 @@ tags: [github, jekyll, chirpy]
 
 검색을 통해 찾은 테마는 [Jekyll Theme](http://jekyllthemes.org/) 중 인기 있는  [Chirpy Theme](http://jekyllthemes.org/themes/jekyll-theme-chirpy/)였다.
 
-![](https://camo.githubusercontent.com/5a66291b5a52ebd0c59e1fff1525a4afedf1270407d0b1a9d52fc756566833e3/68747470733a2f2f6368697270792d696d672e6e65746c6966792e6170702f636f6d6d6f6e732f646576696365732d6d6f636b75702e706e67) 
+![image](https://github.com/yeonkyupark/yeonkyupark.github.io/assets/72383349/795d038c-0b84-4d5d-808b-94d13049b49c)
 
 ## 테마 환경 설정 및 적용
 
