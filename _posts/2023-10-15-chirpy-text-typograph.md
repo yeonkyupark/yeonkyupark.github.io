@@ -1,9 +1,9 @@
 ---
 title: Chirpy Theme에서 사용하는 마크다운 문법을 알아보자
 author: yk
-date: 2023-10-15 22:00
-categories: Resource
-tags: [chirpy, markdown]
+date: 2023-10-15 16:39
+categories: 
+tags:
 ---
 
 자세한 내용은 Chirpy Theme 공식 사이트에서 제공하는 [가이드](https://chirpy.cotes.page/posts/text-and-typography/)를 참고하자.
@@ -106,7 +106,7 @@ Unordered list
 ## 인용문
 
 ```
-> 인용문 예제입니다.
+> `인용문` 예제입니다.
 ```
 
 > `인용문` 예제입니다.
@@ -144,12 +144,12 @@ Unordered list
 참고로 callout은 아래와 같이 출력 된다.
 
 ```
-[!Note]
-callout 예제입니다.
+> [!Note]
+> callout 예제입니다.
 ```
 
-[!Note]
-callout 예제입니다.
+> [!Note]
+> callout 예제입니다.
 
 ## 표
 
@@ -194,10 +194,13 @@ callout 예제입니다.
 ## 이미지
 
 ```
-![Responsive rendering of Chirpy theme on multiple devices.](https://chirpy-img.netlify.app/commons/devices-mockup.png)
+![Desktop View](https://chirpy-img.netlify.app/posts/20190808/mockup.png){: width="972" height="589" }
+_Full screen width and center alignment_
 ```
 
-![Responsive rendering of Chirpy theme on multiple devices.](https://chirpy-img.netlify.app/commons/devices-mockup.png)
+![Desktop View](https://chirpy-img.netlify.app/posts/20190808/mockup.png){: width="972" height="589" }
+_Full screen width and center alignment_
+
 
 ## 코드 블록
 
@@ -211,3 +214,8 @@ callout 예제입니다.
 코드 블록 예제입니다.
 ```
 
+
+## 각주 
+
+[^footnote1]: 첫 번째 각주
+[^footnote2]: 두 번째 각주
