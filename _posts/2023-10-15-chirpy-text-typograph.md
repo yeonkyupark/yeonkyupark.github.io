@@ -141,10 +141,6 @@ Unordered list
 > An example showing the `danger` type prompt.
 {: .prompt-danger }
 
-<div class="callout callout-info" markdown="span">
-This is a callout. It can be used to make an aside without disrupting the flow of the main document.
-</div>
-
 ## 표
 
 ```
