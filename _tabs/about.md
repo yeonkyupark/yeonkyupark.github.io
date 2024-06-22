@@ -6,7 +6,7 @@ order: 4
 > **관심분야**
 > - 데이터 & 인공지능
 > - 스마트 팩토리
-{: .prompt-important }
+{: .prompt-info }
 
 > **취미**
 > - 자전거
