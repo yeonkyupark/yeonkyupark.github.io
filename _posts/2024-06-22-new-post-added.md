@@ -13,7 +13,7 @@ tags:
 > [!NOTE] 콜아웃 제목
 > 깃허브에서 어떻게 나오는지 확인 중
 
-> [!NOTE]  
+>[!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 
 옵시디언 콜아웃에서 `Title` 적용이 안되는 듯 하다.
