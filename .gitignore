@@ -20,6 +20,7 @@ package-lock.json
 
 # Obsidian
 .obsidian
+_templates
 
 # Misc
 # assets/js/dist
