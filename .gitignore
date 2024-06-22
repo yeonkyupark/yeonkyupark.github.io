@@ -18,5 +18,8 @@ package-lock.json
 .idea
 .vscode
 
+# Obsidian
+.obsidian
+
 # Misc
 # assets/js/dist
