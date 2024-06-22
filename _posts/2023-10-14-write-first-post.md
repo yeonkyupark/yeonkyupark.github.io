@@ -31,7 +31,7 @@ tags: [github, jekyll, chirpy]
 - 문서 가독성
 - 배포 편의성
 
--> 문제 코드 삭제 <- 
+검색을 통해 찾은 테마는 [Jekyll Theme](http://jekyllthemes.org) 중 인기 있는  [Chirpy Theme](http://jekyllthemes.org/themes/jekyll-theme-chirpy)였다.
 
 ![image](https://github.com/yeonkyupark/yeonkyupark.github.io/assets/72383349/795d038c-0b84-4d5d-808b-94d13049b49c)
 
