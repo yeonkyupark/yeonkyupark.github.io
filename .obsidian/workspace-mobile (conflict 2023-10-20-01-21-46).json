@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "3bfc0d4a3e884b80",
+    "type": "split",
+    "children": [
+      {
+        "id": "2337a40ac305c909",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c925f934439ac7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/C 언어 프로그래밍 입문 - 일일 정리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6483a21256dd90ed",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "96dffe62e3ae884d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "227488613b95f200",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "e4841ce49d9525bf",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "1064184279a4a007",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "33762561e5863b15",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a0377ecc827eeb4c",
+        "type": "leaf",
+        "state": {
+          "type": "mk-file-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7ca3f943b959d0ef",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4720cf19caa462b8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/C 언어 프로그래밍 입문 - 일일 정리.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0427bd6223989678",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/C 언어 프로그래밍 입문 - 일일 정리.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c827cacccc1a7b63",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/C 언어 프로그래밍 입문 - 일일 정리.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8c925f934439ac7b",
+  "lastOpenFiles": [
+    "20. Areas/Journal/2023-10-18.md",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/C 언어 프로그래밍 입문 - 일일 정리.md",
+    "20. Areas/삶은지혜/2023-10-19.md",
+    "20. Areas/삶은지혜/2023-10-18.md",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Drawing 2023-10-19 21.44.34.excalidraw",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/01일차 정리.md",
+    "10. Projects/C언어 프로그래밍 입문 (DESKTOP-ARBCBGD의 충돌된 사본 2023-10-19).md",
+    "20. Areas/삶은지혜/2023-10-20.md",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Backup_원본/C언어-01일차-2023-10-19-2133.excalidraw",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Backup_원본",
+    "Context/spacesLastSync (conflict 2023-10-20-00-17-17).log",
+    "20. Areas/삶은지혜/2023-10-17.md",
+    "20. Areas/삶은지혜/2023-10-16.md",
+    "10. Projects/C언어 프로그래밍 입문.md",
+    "Excalidraw/C_Programming_Basics.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-15 12.57.52.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-15 22.50.49.excalidraw.md",
+    "90. PDS/Templates/Template - 삶은지혜.md",
+    "90. PDS/Templates/Template - github page.md",
+    "Home.md",
+    "20. Areas/삶은지혜/files/Pasted Image 20231016222826_001.png",
+    "20. Areas/삶은지혜/files",
+    "Pasted Image 20231016222826_001.png",
+    "Excalidraw/Drawing 2023-10-16 08.41.05.excalidraw.md",
+    "10. Projects/Chirpy Theme 마무리 하기.md",
+    "Excalidraw",
+    "Context/spacesLastSync.log",
+    "Context",
+    "90. Templates/Template - 삶은지혜.md",
+    "90. Templates/Template - github page.md",
+    "90. Templates",
+    "80. Repositories/10. Attached/Pasted image 20231015110229.png",
+    "80. Repositories/10. Attached/Pasted image 20231015104703.png",
+    "80. Repositories/10. Attached/Pasted image 20231015110200.png",
+    "80. Repositories/10. Attached/Pasted image 20231015004616.png",
+    "80. Repositories/10. Attached/Pasted image 20231015130218.png",
+    "80. Repositories/10. Attached/Pasted image 20231014222934.png",
+    "80. Repositories/10. Attached/Pasted image 20231014222918.png",
+    "80. Repositories/10. Attached/Pasted image 20231014223533.png",
+    "80. Repositories/10. Attached",
+    "40. Archives/깃허브 블로그 만들기/90. 깃허브에서 블로그를 만들어 보자.md",
+    "40. Archives/깃허브 블로그 만들기/30. 테마 적용.md",
+    "40. Archives/깃허브 블로그 만들기/40. 최종 점검.md",
+    "40. Archives/깃허브 블로그 만들기/10. 깃허브 계정 만들기.md",
+    "40. Archives/깃허브 블로그 만들기/20. 적용 테마 선정.md",
+    "40. Archives/깃허브 블로그 만들기/00. 재료 준비하기.md"
+  ]
+}

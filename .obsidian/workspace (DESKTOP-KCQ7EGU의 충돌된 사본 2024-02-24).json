@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "49436ac83f3def83",
+    "type": "split",
+    "children": [
+      {
+        "id": "056c01cd808d37ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8aa676178d2da0f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Areas/Journal/2024/Daily/2024-02-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72944486e8329866",
+    "type": "split",
+    "children": [
+      {
+        "id": "01d98f4222380a7b",
+        "type": "tabs",
+        "dimension": 77.60358342665174,
+        "children": [
+          {
+            "id": "dd5828e131da0424",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e94454ac71d1de61",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#업무",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4fcf39e7d8b0c663",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "b8544d0e24173921",
+        "type": "tabs",
+        "dimension": 22.396416573348265,
+        "children": [
+          {
+            "id": "fbd142d27cf44f86",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "69b41bdd9bebdac5",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a5201620996f83c",
+        "type": "tabs",
+        "dimension": 33.46153846153846,
+        "children": [
+          {
+            "id": "6c91e85543fae802",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6b3469dec9f7975e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Areas/Journal/2024/Daily/2024-02-24.md"
+              }
+            }
+          },
+          {
+            "id": "549e9237251dbf81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "b68400eef353975f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Areas/Journal/2024/Daily/2024-02-24.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "06b8a39003051102",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Areas/Journal/2024/Daily/2024-02-24.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cb0e84e98251f2d8",
+        "type": "tabs",
+        "dimension": 66.53846153846153,
+        "children": [
+          {
+            "id": "05840b9fe926c008",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "homepage:Open homepage": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "graph:Open graph view": true,
+      "obsidian-day-planner:Timeline": true,
+      "templater-obsidian:Templater": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian-extract-pdf-highlights:PDF Highlights": true,
+      "obsidian-excalidraw-plugin:Create new drawing": true,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "8aa676178d2da0f4",
+  "lastOpenFiles": [
+    "Resources/Writing/좋아하는 글쓰기/20240105 댕댕이 산책.md",
+    "Resources/Writing/좋아하는 글쓰기/20240118 레트로.md",
+    "Projects/공장관리 기술사 과정/backup/2205 제품-공정전략.md",
+    "Areas/Journal/2024/Daily/files/20240219_114306.jpg",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240214223211.png",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240214223009.png",
+    "Projects/공장관리 기술사 과정/backup/3301 재고 개념.md",
+    "Resources/Writing/좋아하는 글쓰기/20240116 허스키.md",
+    "Projects/공장관리 기술사 과정/backup/2103 동시공학.md",
+    "Resources/Writing/좋아하는 글쓰기/20240103 댕댕이 똥꼬.md",
+    "Projects/공장관리 기술사 과정/backup/Cheetsheet.excalidraw",
+    "Resources/Writing/좋아하는 글쓰기/20240115 빗소리.md",
+    "Projects/공장관리 기술사 과정/backup/1113 균형성과관리(BSC).md",
+    "Resources/Writing/좋아하는 글쓰기/20240108 쉰 김치.md",
+    "Resources/Writing/좋아하는 글쓰기/20240113 낮잠.md",
+    "Resources/Writing/좋아하는 글쓰기/20240114 기쁨 구입.md",
+    "Projects/공장관리 기술사 과정/backup/2601 생산관리계획 개념.md",
+    "Resources/Writing/좋아하는 글쓰기/20240119 예언.md",
+    "Resources/Writing/좋아하는 글쓰기/20240101 여명.md",
+    "Resources/Writing/좋아하는 글쓰기/20240117 버스.md",
+    "Resources/Writing/좋아하는 글쓰기/20240106 수영.md",
+    "Resources/Writing/좋아하는 글쓰기/20240104 새벽 찬 바람.md",
+    "Projects/공장관리 기술사 과정/backup/2105 제조 용이성 설계.md",
+    "Projects/공장관리 기술사 과정/backup/1301 원가개념.md",
+    "Projects/공장관리 기술사 과정/backup/2110 로버스트 설계.md",
+    "Resources/Writing/좋아하는 글쓰기/20240111 댕댕이 새벽산책.md",
+    "Projects/공장관리 기술사 과정/backup/1202 서비스 생산 프로세스.md",
+    "Projects/공장관리 기술사 과정/backup/2202 수직적 통합.md",
+    "Projects/공장관리 기술사 과정/backup/2109 부품수 공용(삭감) 계획.md",
+    "Projects/공장관리 기술사 과정/backup/2206 생산공정 유연화.md",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240204014806.png",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240214225338.png",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240204005938.png",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240204020353.png",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240214224942.png",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240214223033.png",
+    "Projects/공장관리 기술사 과정/노트/files/Pasted image 20240203235803.png",
+    "Projects/공장관리 기술사 과정/노트/files/공정 유형 2024-02-09 11.08.27.excalidraw",
+    "Projects/공장관리 기술사 과정/노트/files/벤치마킹(Benchmarking) 2024-02-04 15.00.15.excalidraw",
+    "Projects/공장관리 기술사 과정/노트/files/서비스 2024-02-04 17.38.46.excalidraw",
+    "Projects/공장관리 기술사 과정/노트/files/files",
+    "Projects/공장관리 기술사 과정/노트/Drawing 2024-02-04 12.25.44.excalidraw",
+    "Projects/공장관리 기술사 과정/노트/files",
+    "![[files",
+    "Areas/Journal/2024/Daily/files",
+    "Areas/건강검진 결과/계명대동산의료원(종합검진) 건강검진 결과_20190930.pdf",
+    "Untitled.canvas",
+    "무제 파일 1.canvas",
+    "무제 파일.canvas"
+  ]
+}

@@ -1,22 +1,25 @@
 {
   "main": {
-    "id": "3c429d7674dc41a4",
+    "id": "49436ac83f3def83",
     "type": "split",
     "children": [
       {
-        "id": "081b918bee044f72",
+        "id": "63d3f6c38ce7b81a",
         "type": "tabs",
         "children": [
           {
-            "id": "c97367cbe9d6f564",
+            "id": "67b9f7e4386f0cfe",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-10-14-write-first-post.md",
+                "file": "Home.md",
                 "mode": "preview",
-                "source": true
-              }
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -25,15 +28,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "461200e4f98d393e",
+    "id": "72944486e8329866",
     "type": "split",
     "children": [
       {
-        "id": "6f0e1ac729679b41",
+        "id": "01d98f4222380a7b",
         "type": "tabs",
+        "dimension": 77.60358342665174,
         "children": [
           {
-            "id": "e8228851b7082add",
+            "id": "dd5828e131da0424",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +47,12 @@
             }
           },
           {
-            "id": "c3449c15531dac53",
+            "id": "e94454ac71d1de61",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Pasted image 20231015130218",
+                "query": "경영진",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,36 +62,79 @@
             }
           },
           {
-            "id": "6bf86db644c055f1",
+            "id": "4fcf39e7d8b0c663",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "b8544d0e24173921",
+        "type": "tabs",
+        "dimension": 22.396416573348265,
+        "children": [
+          {
+            "id": "fbd142d27cf44f86",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
-    "id": "e133238029290e59",
+    "id": "69b41bdd9bebdac5",
     "type": "split",
     "children": [
       {
-        "id": "6d2574ec47a71ae4",
+        "id": "4a5201620996f83c",
         "type": "tabs",
+        "dimension": 55.392156862745104,
         "children": [
           {
-            "id": "f456cb15a11af969",
+            "id": "6b3469dec9f7975e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md"
+              }
+            }
+          },
+          {
+            "id": "549e9237251dbf81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "6b4bccc69e071169",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b68400eef353975f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-10-14-write-first-post.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,62 +146,113 @@
             }
           },
           {
-            "id": "006cb0c95010b821",
+            "id": "06b8a39003051102",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-10-14-write-first-post.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c7403cc3ae2839fd",
+            "id": "e05d8df2ebbcf967",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "6bd275cc3014a6e7",
+        "type": "tabs",
+        "dimension": 44.6078431372549,
+        "children": [
           {
-            "id": "8052f9c47d1f6ef1",
+            "id": "530dbc819bb88d4b",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "_posts/2023-10-14-write-first-post.md"
-              }
+              "type": "timeline",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "graph:Open graph view": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-day-planner:Timeline": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "c97367cbe9d6f564",
+  "active": "67b9f7e4386f0cfe",
   "lastOpenFiles": [
-    "_posts/2024-06-22-github-gain.md",
-    "_posts/2023-10-14-write-first-post.md",
-    "_posts/2023-10-15-chirpy-text-typograph.md",
-    "_posts/2023-10-15-obsidian-dropbox-sync.md",
-    "_posts/2023-10-14-apply-web-font-on-chirpy.md",
-    "_posts/_drafts/2023-10-15-draft-post.md"
+    "Projects/강의/Obsidian/Plugin/R과 Obsidian 연동하기.md",
+    "Home.md",
+    "Areas/Journal/2024/Daily/2024-06-22.md",
+    "Projects/강의/R/data.table/data.table 소개.md",
+    "Projects/강의/R/data.table/data.table이란.md",
+    "Projects/강의/R/datat.table/test.rmd",
+    "Projects/강의/R/datat.table",
+    "Projects/공장관리기술사 강의/공장관리기술사 강의 MOC.md",
+    "Projects/공장관리기술사 강의/과목/생산전략.md",
+    "Projects/공장관리기술사 강의/강의/생산전략/기업전략.md",
+    "Repositories/Templates/새 강의 문서 만들기 (New Lecture).md",
+    "Projects/강의/R/data.table/data.table 이해.md",
+    "Projects/강의/R/data.table",
+    "Projects/강의/R",
+    "Projects/강의/Obsidian/Plugin",
+    "Projects/강의/Obsidian",
+    "Projects/강의",
+    "Projects/강의/data.table 개요/undefined/undefined.md",
+    "Projects/강의/data.table 개요/undefined",
+    "Projects/강의/data.table 개요",
+    "Repositories/Templates/새 공장관리기술사 강의.md",
+    "Projects/강의/undefined/undefined/undefined.md",
+    "Projects/강의/undefined/undefined",
+    "Projects/강의/data.table/data.table 개요/undefined.md",
+    "Projects/공장관리기술사 면접 문제.md",
+    "Projects/강의/data.table/R - data.table - data.table 개요.md",
+    "Projects/files/Pasted image 20240530104024.png",
+    "Areas/Journal/2024/Daily/2024-06-19.md",
+    "Areas/Journal/2024/Daily/files/Pasted image 20240621113558.png",
+    "Inbox/files/Pasted image 20240621110537.png",
+    "Inbox/files/Pasted image 20240621110232.png",
+    "Repositories/Templates/새 데일리 노트 만들기 (New Daily Note).md",
+    "Projects/공장관리기술사 면접/강의/스마트 공장/스마트 공장이란.md",
+    "Projects/공장관리기술사 면접/강의/스마트 공장/스마트 공장 5단계.md",
+    "Areas/Journal/2024/Daily/2024-06-18.md",
+    "Projects/공장관리기술사 면접/강의/스마트 공장/8대 기술.md",
+    "Areas/Journal/2024/Daily/2024-06-17.md",
+    "Resources/Writing/좋아하는 글 쓰기.md",
+    "Projects/files/Pasted image 20240530104054.png",
+    "Resources/Books/files/Pasted image 20240618204844.png",
+    "Resources/Books/files/Pasted image 20240618203535.png",
+    "Resources/Books/files/Pasted image 20240618203434.png",
+    "Resources/Books/files/Pasted image 20240618203321.png",
+    "Resources/Books/files/Pasted image 20240618203216.png",
+    "Untitled.canvas",
+    "무제 파일 1.canvas",
+    "무제 파일.canvas"
   ]
 }

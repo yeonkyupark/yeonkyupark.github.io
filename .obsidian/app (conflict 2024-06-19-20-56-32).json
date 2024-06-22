@@ -1,0 +1,13 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./files",
+  "newFileLocation": "folder",
+  "propertiesInDocument": "visible",
+  "newFileFolderPath": "Inbox",
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "trashOption": "local"
+}

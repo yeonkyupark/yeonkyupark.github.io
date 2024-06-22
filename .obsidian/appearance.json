@@ -1,1 +1,18 @@
-{}
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "Cornell",
+    "my_style",
+    "Note_width",
+    "MCL Multi Column"
+  ],
+  "theme": "moonstone",
+  "nativeMenus": true,
+  "textFontFamily": "KoPubWorld돋움체,Spoqa Han Sans Neo",
+  "interfaceFontFamily": "KoPubWorld돋움체,Spoqa Han Sans Neo",
+  "monospaceFontFamily": "D2Coding",
+  "cssTheme": "AnuPpuccin",
+  "baseFontSize": 16,
+  "showViewHeader": true,
+  "translucency": false
+}

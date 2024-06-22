@@ -1,0 +1,64 @@
+/*for "Source mode" and "Live Preview"*/
+
+.cm-header-1{
+  color: #0000FF;
+font-family: "Spoqa Han Sans Neo";
+}
+.cm-header-2{
+  color: #00FF00;
+font-family: "Spoqa Han Sans Neo";
+}
+.cm-header-3{
+  color: #4A4E69;
+font-family: "Spoqa Han Sans Neo";
+}
+.cm-header-4{
+  color: #9A8C98;
+font-family: "Spoqa Han Sans Neo";
+}
+.cm-header-5{
+  color: #C9ADA7;
+font-family: "Spoqa Han Sans Neo";
+}
+
+/*for "Source mode"*/
+.markdown-preview-view h1{
+color: #0000FF;
+font-family: "Spoqa Han Sans Neo";
+}
+.markdown-preview-view h2{
+color: #00FF00;
+font-family: "Spoqa Han Sans Neo";
+}
+.markdown-preview-view h3{
+color: #4A4E69;
+font-family: "Spoqa Han Sans Neo";
+}
+.markdown-preview-view h4{
+color: #9A8C98;
+font-family: "Spoqa Han Sans Neo";
+}
+.markdown-preview-view h5{
+color: #C9ADA7;
+font-family: "Spoqa Han Sans Neo";
+}
+
+
+/* for list */
+
+ol {
+  counter-reset: item;
+}
+
+ol li {
+  display: block;
+}
+
+ol li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  padding-right: 5px;
+}
+
+
+

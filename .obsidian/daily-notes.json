@@ -1,0 +1,6 @@
+{
+  "folder": "Areas/Journal",
+  "template": "Repositories/Templates/새 데일리 노트 만들기 (New Daily Note)",
+  "autorun": false,
+  "format": "YYYY/[Daily]/YYYY-MM-DD"
+}

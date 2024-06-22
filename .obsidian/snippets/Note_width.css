@@ -1,0 +1,11 @@
+/*
+1. 노트의 frontmatter에 추가 (Add to the Frontmatter of the notes you want)
+cssclass: width-100
+2. "Settings ＞ Appearance ＞ CSS Snippets"에 설정 (Set to "Settings ＞ Appearance ＞ CSS Snippets")
+    my_style.css에 추가 (Add to my_style.css)
+*/
+
+.body_900 {
+  --file-line-width: 900px;  
+}
+

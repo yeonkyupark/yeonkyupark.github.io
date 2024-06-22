@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "49436ac83f3def83",
+    "type": "split",
+    "children": [
+      {
+        "id": "754e66e741f7864a",
+        "type": "tabs",
+        "dimension": 78.54077253218884,
+        "children": [
+          {
+            "id": "9efd05eaf6d2c5e0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Drawing 2023-10-19 21.44.34.excalidraw"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b2a2e8447fafa47c",
+        "type": "split",
+        "dimension": 21.45922746781116,
+        "children": [
+          {
+            "id": "6ca19900b4f81fe3",
+            "type": "tabs",
+            "dimension": 35.96153846153846,
+            "children": [
+              {
+                "id": "f11a81336d67a523",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "8caa4cdb467e3248",
+            "type": "tabs",
+            "dimension": 64.03846153846153,
+            "children": [
+              {
+                "id": "d63c744c437ffc28",
+                "type": "leaf",
+                "state": {
+                  "type": "timeline",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72944486e8329866",
+    "type": "split",
+    "children": [
+      {
+        "id": "01d98f4222380a7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd5828e131da0424",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e94454ac71d1de61",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4fcf39e7d8b0c663",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "3166ab752d461c04",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "69b41bdd9bebdac5",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d8b886a7a2c4c33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6e9f1b94bda8da3",
+            "type": "leaf",
+            "state": {
+              "type": "weekly",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b13f97eb17d19cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20. Areas/Journal/2023-10-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cda9d7cf06d064a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Drawing 2023-10-19 21.44.34.excalidraw",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2009075158afead5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Drawing 2023-10-19 21.44.34.excalidraw",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "549e9237251dbf81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ebc206f644fec583",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Drawing 2023-10-19 21.44.34.excalidraw"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "obsidian-day-planner:Timeline": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9efd05eaf6d2c5e0",
+  "lastOpenFiles": [
+    "20. Areas/삶은지혜/2023-10-19.md",
+    "20. Areas/삶은지혜/2023-10-18.md",
+    "Excalidraw/C_Programming_Basics.excalidraw.md",
+    "20. Areas/삶은지혜/files",
+    "10. Projects/C언어 프로그래밍 입문.md",
+    "20. Areas/삶은지혜",
+    "90. PDS/Templates/Template - 삶은지혜.md",
+    "10. Projects/C언어 프로그래밍 입문 (DESKTOP-ARBCBGD의 충돌된 사본 2023-10-19).md",
+    "Excalidraw/C_Programming_Basics.excalidraw (DESKTOP-ARBCBGD의 충돌된 사본 2023-10-19).md",
+    "Context/spacesLastSync (DESKTOP-ARBCBGD의 충돌된 사본 2023-10-19).log",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/01일차 정리.md",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/Drawing 2023-10-19 21.44.34.excalidraw",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리/C 언어 프로그래밍 입문 - 일일 정리.md",
+    "30. Resources/10. 기술/Obsidian/옵시디언과 Dropbox를 연동해 보자.md",
+    "Excalidraw/Drawing 2023-10-15 22.50.49.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-15 12.57.52.excalidraw.md",
+    "10. Projects/Chirpy Theme 마무리 하기.md",
+    "10. Projects/C 언어 프로그래밍 입문 - 일일 정리",
+    "20. Areas/Journal/2023-10-19.md",
+    "20. Areas/Journal/2023-10-20.md",
+    "20. Areas/Journal/2023-10-18.md",
+    "20. Areas/lifeOnline.md",
+    "90. PDS/Templates/Template - Journal.md",
+    "20. Areas/Journal/삶은지혜.md",
+    "20. Areas/삶은지혜/Journal.md",
+    "20. Areas/삶은지혜/Journal.md",
+    "작성할 빈 문서를 미리 만들어 두자.md",
+    "20. Areas/Journal/2023-10-17.md",
+    "30. Resources/10. 기술/Chirpy Theme/Getting Started.md",
+    "30. Resources/10. 기술/Chirpy Theme/Text & Typograph.md",
+    "20. Areas/Journal/2023-10-12.md",
+    "Pasted Image 20231016222826_001.png",
+    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "90. PDS/Fonts/나눔손글씨 다행체.ttf",
+    "90. PDS/Fonts",
+    "90. PDS",
+    "무제 파일 1.canvas",
+    "무제 파일.canvas",
+    "80. Repositories/10. Attached/Pasted image 20231015130218.png",
+    "80. Repositories/10. Attached/Pasted image 20231015110229.png",
+    "80. Repositories/10. Attached/Pasted image 20231015110200.png",
+    "80. Repositories/10. Attached/Pasted image 20231015110027.png",
+    "80. Repositories/10. Attached/Pasted image 20231015104703.png",
+    "80. Repositories/10. Attached/Pasted image 20231015004616.png",
+    "80. Repositories/10. Attached/Pasted image 20231014223533.png",
+    "80. Repositories/10. Attached/Pasted image 20231014222934.png"
+  ]
+}
