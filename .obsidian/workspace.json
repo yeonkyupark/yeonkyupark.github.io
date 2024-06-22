@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Pasted image 20231015130218",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c97367cbe9d6f564",
+  "active": "c3449c15531dac53",
   "lastOpenFiles": [
     "_posts/2024-06-22-github-gain.md",
     "_posts/2023-10-14-write-first-post.md",
