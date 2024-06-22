@@ -22,5 +22,8 @@ tags:
 > 내용은 여기에
 {: .prompt-tip } 
 
-
+```
+> contents
+{: .prompt-tip } 
+```
 
