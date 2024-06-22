@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-22-github-gain.md",
+                "file": "_posts/2023-10-14-write-first-post.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-22-github-gain.md",
+                "file": "_posts/2023-10-14-write-first-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-22-github-gain.md",
+                "file": "_posts/2023-10-14-write-first-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-22-github-gain.md"
+                "file": "_posts/2023-10-14-write-first-post.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "c97367cbe9d6f564",
   "lastOpenFiles": [
-    "_posts/2023-10-15-obsidian-dropbox-sync.md",
     "_posts/2024-06-22-github-gain.md",
     "_posts/2023-10-14-write-first-post.md",
+    "_posts/2023-10-15-chirpy-text-typograph.md",
+    "_posts/2023-10-15-obsidian-dropbox-sync.md",
     "_posts/2023-10-14-apply-web-font-on-chirpy.md",
-    "_posts/_drafts/2023-10-15-draft-post.md",
-    "_posts/2023-10-15-chirpy-text-typograph.md"
+    "_posts/_drafts/2023-10-15-draft-post.md"
   ]
 }
