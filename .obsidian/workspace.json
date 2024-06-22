@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-22-new-post-added.md"
+                "file": "_templates/새 블로그 작성 (New Blog post).md"
               }
             }
           },
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-22-new-post-added.md",
+                "file": "_templates/새 블로그 작성 (New Blog post).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-22-new-post-added.md",
+                "file": "_templates/새 블로그 작성 (New Blog post).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,10 +215,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "138a372f5b810f16",
+  "active": "67b9f7e4386f0cfe",
   "lastOpenFiles": [
-    "_templates/새 블로그 작성 (New Blog post).md",
     "_posts/2024-06-22-new-post-added.md",
+    "_templates/새 블로그 작성 (New Blog post).md",
     "_post/2024-06-22-새 포스트 작성 연습.md",
     "_post/-2024-06-22-새 포스트 작성 연습.md",
     "_post",
