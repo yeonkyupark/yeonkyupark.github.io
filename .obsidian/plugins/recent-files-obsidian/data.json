@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "2024-06-22-new-post-added",
+      "path": "_posts/2024-06-22-new-post-added.md"
+    },
+    {
+      "basename": "새 블로그 작성 (New Blog post)",
+      "path": "_templates/새 블로그 작성 (New Blog post).md"
+    },
+    {
+      "basename": "Gemfile",
+      "path": "Gemfile"
     },
     {
       "basename": "R과 Obsidian 연동하기",
@@ -191,10 +199,6 @@
     {
       "basename": "공정 유형",
       "path": "Archives/공장관리 기술사/공장관리 기술사 과정/노트/공정 유형.md"
-    },
-    {
-      "basename": "Risk Management",
-      "path": "Archives/공장관리 기술사/공장관리 기술사 과정/노트/Risk Management.md"
     }
   ],
   "omittedPaths": [],
