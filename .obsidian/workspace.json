@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-10-14-write-first-post.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e133238029290e59",
@@ -147,7 +148,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3449c15531dac53",
+  "active": "c97367cbe9d6f564",
   "lastOpenFiles": [
     "_posts/2024-06-22-github-gain.md",
     "_posts/2023-10-14-write-first-post.md",
