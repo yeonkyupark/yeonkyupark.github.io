@@ -19,8 +19,8 @@ tags:
 
 콜아웃은 chirpy theme에서 제공하는 것으로 사용해야겠다.
 
-```
-{: .prompt-tip }
-```
+> 내용은 여기에
+{: .prompt-tip } 
+
 
 
