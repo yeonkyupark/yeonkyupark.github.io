@@ -4,5 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> **취미**
+> - 자전거
+> - 걷기
+> - 수영 
+{: .prompt-tip }
+
+> **관심분야**
+> - 데이터 & 인공지능
+> - 스마트 팩토리
 {: .prompt-tip }
