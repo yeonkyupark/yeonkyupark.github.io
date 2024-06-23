@@ -7,6 +7,7 @@ tags:
 ---
 # Shiny Package
 ![](https://shiny.posit.co/images/shiny-solo.png)
+
 Shiny는 대화형 웹 어플리케이션 개발을 위한 R 언어 패키지이다.
 
 ```r
