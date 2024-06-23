@@ -5,8 +5,8 @@ date: 2024-06-23
 categories: 
 tags:
 ---
-# Shiny Package
-![](“img/avatar_me.jpg”)
+## Shiny Package
+![](./img/avatar_me.jpg”)
 
 ![](https://shiny.posit.co/images/shiny-solo.png)
 
@@ -19,7 +19,7 @@ runExample("01_hello")
 ```
 
 ![](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/images/01_hello.png)
-## runExample()
+### runExample()
 패키지를 설치하면 `runExample()` 함수로 간단한 예제를 살펴 볼 수 있다. `[Package _shiny_ version 1.8.1.1` 기준 11개 예제를 제공한다.
 
 ```r
@@ -36,7 +36,7 @@ runExample("10_download")   # file download wizard
 runExample("11_timer")      # an automated timer
 ```
 
-# Shiny app 구조
+## Shiny app 구조
 Shiny app은 `app.R` 파일 하나로 구성되며, `runApp()` 함수에 app.R 파일을 포함된 디렉토리 명을 인자로 주어 실행한다. app.R 파일은 아래 3가지로 구성된다.
 - User Infterface
 - Server function
