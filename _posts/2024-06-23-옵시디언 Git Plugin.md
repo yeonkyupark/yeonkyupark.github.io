@@ -33,3 +33,4 @@ Community Plugin에서 Git 검색 및 설치한다.
 
 > 상황에 따라 다르겠지만, 개인적으로 Obsidian + GitHub Desktop이 편한 듯 하다.
 > {: .prompt-tip }
+
