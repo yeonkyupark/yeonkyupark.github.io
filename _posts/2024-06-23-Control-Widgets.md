@@ -140,6 +140,6 @@ shinyApp(ui = ui, server = server)
 widget 관련 자세한 내용은 [Shiny Widgets Gallery](https://shiny.posit.co/gallery/widget-gallery.html) 참고 한다.
 
 > 참고자료
-> - https://shiny.posit.co/r/getstarted/shiny-basics/lesson3/
+> - [https://shiny.posit.co/r/getstarted/shiny-basics/lesson3/](https://shiny.posit.co/r/getstarted/shiny-basics/lesson3/)
 
 _\_EOF\__
