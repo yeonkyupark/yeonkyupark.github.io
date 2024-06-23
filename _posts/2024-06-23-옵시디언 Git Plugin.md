@@ -26,6 +26,10 @@ Community Plugin에서 Git 검색 및 설치한다.
 ![](/assets/images/Pasted%20image%2020240623144327.png)
 
 설치가 완료되면 `Enable`, `Options`에서 아래와 같이 기본 설정을 한다. Community Plugin에서 Git 검색 및 설치한다. 설치가 완료되면 `Enable`, `Options`에서 아래와 같이 기본 설정을 한다. 
-![](/assets/images/Pasted%20image%2020240623142601.png)
+
 
 위와 같이 설정하면 10분마다 commit하고 3분마다 pull 하게 된다. 
+
+> 상황에 따라 다르겠지만, 개인적으로 Obsidian + GitHub Desktop이 편한 듯 하다.
+> {: prompt-tip}
+
