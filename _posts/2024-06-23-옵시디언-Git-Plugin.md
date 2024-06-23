@@ -1,6 +1,6 @@
 ---
 title: 옵시디언 Git Plugin
-author: ㄴㄹㄱㅅㅈ
+author: YK
 date: 2024-06-23
 categories: Project
 tags:

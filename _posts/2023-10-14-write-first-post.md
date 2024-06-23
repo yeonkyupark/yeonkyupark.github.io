@@ -1,9 +1,13 @@
 ---
 title: 깃허브에서 블로그를 만들어 보자
-author: yk
+author: YK
 date: 2023-10-14 09:14:00 +0900
-categories: [Project]
-tags: [github, jekyll, chirpy]
+categories:
+  - Project
+tags:
+  - github
+  - jekyll
+  - chirpy
 ---
 
 지금껏 수많은 자료를 접하고 정리하고 사용했다. 하지만 지식 낱알은 모이지 못하고 이리 저리 흩어졌다. 여러 보조 수단을 사용했지만 그 때 잠시 뿐 지식은 모이지 못하고 지속성은 이내 곧 사그라졌다. 체계적으로 자료를 수집, 정리, 배포할 수 있는 방법을 고민했고 다음과 같은 방법으로 실천해 보기로 한다.

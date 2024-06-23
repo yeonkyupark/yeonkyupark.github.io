@@ -1,9 +1,12 @@
 ---
 title: 옵시디언과 Dropbox를 연동해 보자
-author: yk
+author: YK
 date: 2023-10-15 10:38
 categories: Resource
-tags: [obsidian, dropbox, sync]
+tags:
+  - obsidian
+  - dropbox
+  - sync
 ---
 
 ## 준비물

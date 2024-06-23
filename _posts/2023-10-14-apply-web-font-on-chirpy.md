@@ -1,9 +1,11 @@
 ---
 title: Chirpy Theme에 web font를 적용해 보자
-author: yk
+author: YK
 date: 2023-10-14 21:56
 categories: Project
-tags: [jekyll, chirpy]
+tags:
+  - jekyll
+  - chirpy
 ---
 
 ## 웹 폰트 구하기

@@ -1,6 +1,6 @@
 ---
 title: Shiny get started
-author: ㄴㄹㄱㅅㅈ
+author: YK
 date: 2024-06-23
 categories: Project
 tags:
