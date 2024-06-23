@@ -2,8 +2,11 @@
 title: 옵시디언 Git Plugin
 author: ㄴㄹㄱㅅㅈ
 date: 2024-06-23
-categories: 
+categories: Project
 tags:
+  - obsidian
+  - plugin
+  - git
 ---
 ## 들어가기
 Obsidian과 GitHub를 연동하는 하기 위해 Git 커뮤니티 플러그인을 사용하고자 한다. `GitHub Desktop`을 이용할 수도 있지만 Obsidian 내에서 처리할 수 있도록 한다.
