@@ -25,7 +25,7 @@ Community Plugin에서 Git 검색 및 설치한다.
 
 ![](/assets/images/Pasted%20image%2020240623144327.png)
 
-설치가 완료되면 `Enable`, `Options`에서 아래와 같이 기본 설정을 한다. Community Plugin에서 Git 검색 및 설치한다. 
+설치가 완료되면 `Enable`, `Options`에서 아래와 같이 기본 설정을 한다. 
 
 ![](/assets/images/Pasted%20image%2020240623142601.png)
 
