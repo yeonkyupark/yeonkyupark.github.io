@@ -118,7 +118,7 @@ ui <- page_fluid(
         "Set value range",
         min = 0,
         max = 100,
-        value = c(25, 75)다.
+        value = c(25, 75)
       )
     ),
     card(
