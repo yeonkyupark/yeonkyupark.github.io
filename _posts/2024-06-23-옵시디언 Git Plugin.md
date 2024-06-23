@@ -30,6 +30,6 @@ Community Plugin에서 Git 검색 및 설치한다.
 
 위와 같이 설정하면 10분마다 commit하고 3분마다 pull 하게 된다. 
 
-> 상황에 따라 다르겠지만, 개인적으로 Obsidian + GitHub Desktop이 편한 듯 하다.
-{: prompt-tip}
+> 상황에 따라 다르겠지만, 개인적으로 Obsidian + GitHub Desktop이 편한 듯 하다.  
+{: .prompt-tip }
 
