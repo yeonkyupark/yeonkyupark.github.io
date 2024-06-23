@@ -6,7 +6,7 @@ categories:
 tags:
 ---
 ## Shiny Package
-![](assets/img/avatar_me.jpg)
+![](/assets/img/avatar_me.jpg)
 
 ![](https://shiny.posit.co/images/shiny-solo.png)
 
