@@ -2,8 +2,10 @@
 title: Shiny get started
 author: ㄴㄹㄱㅅㅈ
 date: 2024-06-23
-categories: 
+categories: Project
 tags:
+  - R
+  - Shiny
 ---
 ## Shiny Package
 ![](https://shiny.posit.co/images/shiny-solo.png)
