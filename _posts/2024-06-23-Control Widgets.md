@@ -34,7 +34,7 @@ actionButton(inputId, label, icon = NULL, width = NULL, disabled = FALSE, ...)
 - label - widget에 표시할 이름
 - 그 외 함수에 따른 옵션
 ### Widget 예시
-![](assets/images/Pasted%20image%2020240623165141.png)
+![](/assets/images/Pasted%20image%2020240623165141.png)
 
 ```R
 library(shiny)
