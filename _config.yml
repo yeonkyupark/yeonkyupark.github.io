@@ -77,8 +77,6 @@ avatar: "/assets/img/avatar_me.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
-	min_level: 1
-	max_level: 4
 
 comments:
   active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
