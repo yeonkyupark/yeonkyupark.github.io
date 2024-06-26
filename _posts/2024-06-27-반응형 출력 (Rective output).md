@@ -12,8 +12,9 @@ tags:
 1. ui 부분에 object 추가
 2. server function에 ui에 추가된 object가 어떻게 동작할지 구현
 ### UI에 R Object 추가
+
 | Output function    | Creates   |
-|--------------------|-----------|
+| ------------------ | --------- |
 | dataTableOutput    | DataTable |
 | htmlOutput         | raw HTML  |
 | imageOutput        | image     |
@@ -22,6 +23,7 @@ tags:
 | textOutput         | text      |
 | uiOutput           | raw HTML  |
 | verbatimTextOutput | text      |
+
 이 외 HTML 태그나 위젯 등을 추가할 수 있으며, 별도 package(예, https://github.com/daattali/timevis, https://rstudio.github.io/DT/shiny.html)를 사용하여 출력할 수도 있다.
 
 ```r
@@ -68,7 +70,7 @@ server <- function(input, output) {
 ```
 
 위 예제에서는 단순히 “You have selected this”라는 문자열을 출력하는 것으로 정의하였다. output function과 같이 render function도 처리하고자 하는 내용에 따라 적절한 함수를 사용한다.
-
+  
 | render function | creates                                         |
 |-----------------|-------------------------------------------------|
 | renderDataTable | DataTable                                       |
@@ -78,6 +80,7 @@ server <- function(input, output) {
 | renderTable     | data frame, matrix, other table like structures |
 | renderText      | character strings                               |
 | renderUI        | a Shiny tag object or HTML                      |
+
 app이 실행될 때 server function 내 함수들이 실행되고, ui에 추가된 object가 변경될 때마다 다시 실행된다. 즉 변경된 object 내용으로 화면을 다시 출력(reactive)하게 된다.
 
 ### widget 사용
