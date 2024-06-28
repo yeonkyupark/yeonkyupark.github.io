@@ -79,5 +79,6 @@ server <- function(input, output, session) {
 shinyApp(ui = ui, server = server)
 ```
 
+![실행화면](/assets/images/Pasted%20image%2020240628221335.png)
 
 _\_EOF\__
