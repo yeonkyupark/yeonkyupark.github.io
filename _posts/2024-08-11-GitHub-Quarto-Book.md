@@ -81,8 +81,10 @@ GitHub Desktop을 사용한다면 다음과 같이 추가된 파일이 `commit` 
 
 GitHub에서 Jekyll을 사용하지 않도록 아래와 같이 `.nojekyll` 파일을 추가한다.
 
-> [!quote] Terminal
-> copy NUL .nojekyll
+```Terminal
+copy NUL .nojekyll
+```
+
 
 ![](/assets/images/Pasted%20image%2020240811114539.png)
 
