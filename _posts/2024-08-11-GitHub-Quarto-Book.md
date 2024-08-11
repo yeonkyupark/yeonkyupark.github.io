@@ -1,7 +1,7 @@
 ---
 title: GitHub와 Quarto Book을 연동하자
 author: YK
-date: 2024-06-30
+date: 2024-08-11
 categories: Project
 tags:
   - R
