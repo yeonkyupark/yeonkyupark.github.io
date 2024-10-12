@@ -1,10 +1,14 @@
 ---
 title: 블로그(chripy theme)에 조회수 기록하기 (2)
-author: YK
 date: 2024-10-12
 categories: Project
 tags:
   - jekyll
+img_path: /assets/images/
+image:
+	path: Pasted%20image%2020241013012229.png
+	alt: ""
+description: Chirpy theme upgrade
 ---
 
 ## 블로그(chripy theme)에 조회수 기록하기 (2)
