@@ -6,8 +6,8 @@ tags:
   - jekyll
 img_path: /assets/images/
 image:
-  path: Pasted%20image%2020241013012229.png
-  alt: ""
+  path: Pasted_image_20241013012229.png
+alt: ""
 description: Chirpy theme upgrade
 ---
 
