@@ -7,8 +7,8 @@ math: true
 toc: true
 pin: false
 image:
-  path: /assets/images/Pasted_image_20241013012229.png
-  alt: Chripy Theme
+  path: /assets/images/Pasted%20image%2020241013012229.png
+  alt: ""
 description: Chirpy theme upgrade
 ---
 
