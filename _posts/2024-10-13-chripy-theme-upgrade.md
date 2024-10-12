@@ -5,8 +5,7 @@ categories: Project
 tags:
   - github
   - jekyll
-image:
-  path: /assets/images/Pasted%20image%2020241013012229.png
+image: /assets/images/Pasted%20image%2020241013012229.png
 toc: true
 pin: false
 math: true
