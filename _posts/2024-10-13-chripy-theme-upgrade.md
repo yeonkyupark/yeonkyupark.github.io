@@ -6,7 +6,6 @@ tags: [jekyll, chirpy]
 math: true
 toc: true
 pin: false
-description: Chirpy theme upgrade
 ---
 
 
