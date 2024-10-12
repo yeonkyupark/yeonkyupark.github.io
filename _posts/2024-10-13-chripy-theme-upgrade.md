@@ -7,6 +7,10 @@ tags:
   - jekyll
 image:
   path: /assets/images/Pasted_image_20241013012229.png
+toc: true
+pin: false
+math: true
+mermaid: true
 ---
 
 ## Chirpy theme upgrade
