@@ -1,13 +1,14 @@
 ---
-title: Chirpy theme 업그레이드
-date: 2024-10-13
-categories: [Project]
-tags: [jekyll, chirpy]
-math: true
-toc: true
-pin: false
+title: Chirpy theme upgrade
+author: YK
+date: 2024-10-12
+categories: Project
+tags:
+  - github
+  - jekyll
+image:
+  path: /assets/images/Pasted_image_20241013012229.png
 ---
-
 
 ## Chirpy theme upgrade
 
