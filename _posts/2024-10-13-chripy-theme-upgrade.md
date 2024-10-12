@@ -1,6 +1,5 @@
 ---
 title: Chirpy theme upgrade
-author: YK
 date: 2024-10-12
 categories: Project
 tags:
