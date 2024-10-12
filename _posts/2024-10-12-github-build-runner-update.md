@@ -1,5 +1,5 @@
 ---
-title: github build runner update
+title: github build runner update : 확인용
 author: YK
 date: 2024-10-12
 categories: Project
