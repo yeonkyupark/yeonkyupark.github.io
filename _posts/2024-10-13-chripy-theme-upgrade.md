@@ -6,9 +6,7 @@ tags: [jekyll, chirpy]
 math: true
 toc: true
 pin: false
-image:
-  path: /assets/images/Pasted%20image%2020241013012229.png
-  alt: ""
+image: /assets/images/Pasted%20image%2020241013012229.png
 description: Chirpy theme upgrade
 ---
 
