@@ -1,11 +1,11 @@
 ---
 title: github build runner update
-author: YK
 date: 2024-10-12
 categories: Project
 tags:
   - github
   - jekyll
+- description: GitHub Actions 빌드 에러 수정
 ---
 
 ## GitHub build runner update
