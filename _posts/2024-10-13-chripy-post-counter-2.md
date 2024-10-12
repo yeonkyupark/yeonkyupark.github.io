@@ -4,9 +4,7 @@ date: 2024-10-12
 categories: Project
 tags:
   - jekyll
-img_path: /assets/images/
-image:
-  path: Pasted_image_20241013012229.png
+image: /assets/images/Pasted_image_20241013012229.png
 alt: ""
 description: Chirpy theme upgrade
 ---
