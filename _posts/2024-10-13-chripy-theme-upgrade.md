@@ -6,7 +6,7 @@ tags:
   - github
   - jekyll
 image:
-  path: /assets/images/Pasted_image_20241013012229.png
+  path: /assets/images/Pasted%20image%2020241013012229.png
 toc: true
 pin: false
 math: true
