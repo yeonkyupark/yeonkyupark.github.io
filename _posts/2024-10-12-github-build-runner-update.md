@@ -5,7 +5,7 @@ categories: Project
 tags:
   - github
   - jekyll
-- description: GitHub Actions 빌드 에러 수정
+description: GitHub Actions 빌드 에러 수정
 ---
 
 ## GitHub build runner update
