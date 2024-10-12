@@ -5,11 +5,7 @@ categories: [Project]
 tags: [jekyll, chirpy]
 math: true
 toc: true
-img_path: /assets/images/
 pin: false
-image:
-  path: Pasted%20image%2020241013012229.png
-  alt: ""
 description: Chirpy theme upgrade
 ---
 
