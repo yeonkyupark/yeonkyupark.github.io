@@ -11,6 +11,7 @@ toc: true
 pin: false
 math: true
 mermaid: true
+description: Chripy theme 7.1.1
 ---
 
 ## Chirpy theme upgrade
