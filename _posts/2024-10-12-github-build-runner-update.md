@@ -26,7 +26,7 @@ jobs:
       matrix:
         os: [ ubuntu-20.04 ]
         ruby: [ruby-3.4.0-preview2]
-    runs-on: $/{/{ matrix.os /}/}
+    runs-on: $ {{ matrix.os }}
 ```
 
 `runs-on`에 명시적으로 `ubuntu-20.04`를 적어 두던지 아래 참고 자료 내용을 적용해도 된다.
