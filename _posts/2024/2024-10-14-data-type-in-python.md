@@ -4,7 +4,6 @@ date: 2024-10-14
 categories: Project
 tags:
   - python
-image: 
 toc: true
 pin: false
 math: true
