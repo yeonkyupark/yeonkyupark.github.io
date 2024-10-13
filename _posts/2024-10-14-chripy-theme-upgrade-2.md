@@ -1,9 +1,5 @@
 ---
 title: Chirpy theme upgrade (2)
-date: 2024-10-14
-categories: Programming
-tags:
-  - python
 ---
 
 ## Chirpy theme upgrade (2)
