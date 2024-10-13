@@ -4,11 +4,6 @@ date: 2024-10-14
 categories: Project
 tags:
   - python
-toc: true
-pin: false
-math: true
-mermaid: true
-description: 파이썬 기본 자료형 list, tuple, dictionary, Numpy np.array, Pandas Series, DataFrame
 ---
 
 ## 파이썬에서 사용하는 자료형
