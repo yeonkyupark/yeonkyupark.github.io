@@ -20,6 +20,12 @@ order: 4
 - Machine/Deep Learing with Structured data
 - Smart Factory & Digital Twin for Manufacturing
 
+## <u>Hobbies<u/>
+
+- Swimming 1500M 28'58"
+- Walking 제주올레길 1회, 해파랑길(33/50)
+- Bicyling 국토완주 그랜드슬램
+
 ## <u>Content in Blog<u/>
 
 - Language for Big data
