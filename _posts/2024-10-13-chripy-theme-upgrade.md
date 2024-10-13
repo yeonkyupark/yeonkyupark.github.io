@@ -1,5 +1,5 @@
 ---
-title: Chirpy theme upgrade
+title: Chirpy theme upgrade to 7.1.1
 date: 2024-10-12
 categories: Project
 tags:
