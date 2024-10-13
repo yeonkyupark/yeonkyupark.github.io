@@ -4,6 +4,7 @@ date: 2024-10-14
 categories: Project
 tags:
   - python
+mermaid: true
 ---
 
 ## 파이썬에서 사용하는 자료형
