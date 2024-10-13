@@ -1,16 +1,9 @@
 ---
 title: Chirpy theme upgrade (2)
 date: 2024-10-14
-categories: Project
+categories: Programming
 tags:
-  - github
-  - jekyll
-image: /assets/images/Pasted%20image%2020241013012229.png
-toc: true
-pin: false
-math: true
-mermaid: true
-description: Chripy theme 7.1.1
+  - python
 ---
 
 ## Chirpy theme upgrade (2)
