@@ -23,4 +23,7 @@ description: Chripy theme 7.1.1
 2. [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 3. [Chirpy Theme로 Jekyll 기반 깃허브 블로그 시작하기](https://standing-o.github.io/posts/jekyll-chirpy-start/)
 
+
+...
+
 _\_EOF\__
