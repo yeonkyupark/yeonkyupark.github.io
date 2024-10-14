@@ -19,6 +19,7 @@ description: 파이썬에서 제공하는 list, tuple, dictionary 그리고 Nump
 
 사용하는 패키지에 따라 별도 자료형태를 제공하기도 한다. 아래는 데이터 처리에 있어 흔히 사용되는 numpy와 pandas에서 제공하는 자료형이다.
 
+
 ```mermaid
 flowchart TD
 subgraph sg1[python]
