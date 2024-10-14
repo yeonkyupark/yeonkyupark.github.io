@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "7ab9e4ddeaf6cd68",
+    "type": "split",
+    "children": [
+      {
+        "id": "050045b20ca9b895",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d613530ffced89d9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2fe8aa955de37671",
+    "type": "split",
+    "children": [
+      {
+        "id": "5de3eb6a75912522",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d077dd005e0721ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "650686d30a64ca3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea29d8ae4fb74a0a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "73f43d446194818d",
+    "type": "split",
+    "children": [
+      {
+        "id": "713e2d5883aa2a6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bd6f3f9b949d8bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "698a247407e2d0a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9d4a369cdc31f83f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2291af58db6817e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2024-10-14-chripy-theme-upgrade-2.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d077dd005e0721ce",
+  "lastOpenFiles": [
+    "_posts/2024-10-13-chripy-theme-upgrade.md",
+    "_posts/2024-10-14-chripy-theme-upgrade-2.md",
+    "_posts/2024-10-12-github-build-runner-update.md",
+    "_posts/2024-10-12-chripy-post-counter.md",
+    "_posts/2024-10-11-datatable-rowwise-operation.md",
+    "_posts/2024-09-20-shiny-app-haeparang-course.md",
+    "_posts/2024-09-19-libPath-in-RStudio.md",
+    "_posts/2024-08-11-GitHub-Quarto-Book.md",
+    "_posts/2024-06-30-Reactive.md",
+    "_posts/2024-06-29-shiny에서 데이터, 스크립트 사용하기.md",
+    "_posts/2024-06-28-shiny module 예제.md",
+    "_posts/2024-06-28-lubridate를 이용한 해당 월 첫날 계산하기.md",
+    "_posts/2024-06-27-반응형 출력 (Rective output).md",
+    "_posts/2024-06-23-옵시디언-Git-Plugin.md",
+    "_posts/2024-06-23-Shiny-get-started.md",
+    "_posts/2024-06-23-DT-table에서-선택한-행-가져오기.md",
+    "_posts/2024-06-23-Control-Widgets.md",
+    "_posts/2024-06-23-App-만들기.md",
+    "_posts/2024-06-22-옵시디언과-R-연동하기.md",
+    "_posts/2024-06-22-new-post-added.md",
+    "_posts/2024-06-22-data.table-in-R.md",
+    "_posts/2023-10-15-obsidian-dropbox-sync.md",
+    "_posts/2023-10-15-chirpy-text-typograph.md",
+    "_posts/2023-10-14-write-first-post.md",
+    "_posts/2023-10-14-apply-web-font-on-chirpy.md",
+    "_posts/2024-10-14-data-type-in-python.md",
+    "_posts/2024",
+    "_posts/2023",
+    "assets/img/favicons/web-app-manifest-192x192.png",
+    "assets/img/favicons/favicon-48x48.png",
+    "assets/img/favicons/favicon.svg",
+    "assets/img/favicons/web-app-manifest-512x512.png",
+    "assets/img/favicons/android-chrome-512x512.png",
+    "assets/img/favicons/site.webmanifest",
+    "assets/img/favicons/apple-touch-icon.png",
+    "assets/img/favicons/android-chrome-192x192.png",
+    "assets/img/favicons/favicon-16x16.png",
+    "assets/img/favicons/favicon-32x32.png",
+    "assets/img/favicons/browserconfig.xml",
+    "assets/img/favicons/mstile-150x150.png",
+    "assets/img/favicons/favicon.ico",
+    "assets/img/favicons",
+    "_sass/layout/tags.scss",
+    "_sass/layout/post.scss",
+    "_sass/layout/home.scss",
+    "_sass/layout/category-tag.scss"
+  ]
+}
