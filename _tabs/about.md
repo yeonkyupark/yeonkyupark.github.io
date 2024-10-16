@@ -19,6 +19,7 @@ order: 4
 - Data wrangling with [Python](https://yeonkyupark.github.io/tags/python/) and [R](https://yeonkyupark.github.io/tags/r/)
 - Machine/Deep Learing with Structured data
 - Smart Factory & Digital Twin for Manufacturing
+
 ## <u>Hobbies<u/>
 
 - [Obsidian](https://yeonkyupark.github.io/tags/obsidian/)
