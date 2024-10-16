@@ -1,6 +1,6 @@
 ---
 title: ggplot에서 부드러운 곡선 그리기
-date: 2024-10-17
+date: 2024-10-13
 categories: Interest
 tags:
   - R
