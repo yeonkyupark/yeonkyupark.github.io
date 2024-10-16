@@ -62,5 +62,8 @@ ggplot(df01, aes(x=month, y=sellout)) +
 
 ![](/assets/images/Pasted%20image%2020241017002504.png)
 
+## Reference {.unnumbered .unlisted}
+1. https://github.com/hrbrmstr/ggalt
+2. https://forum.posit.co/t/how-to-draw-a-smooth-line-connecting-all-points/182351/3
 
 _\_EOF\__
