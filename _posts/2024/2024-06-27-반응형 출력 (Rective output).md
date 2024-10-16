@@ -1,8 +1,7 @@
 ---
 title: 반응형 출력 (Rective output)
-author: YK
 date: 2024-06-27
-categories: Project
+categories: Interest
 tags:
   - R
   - Shiny

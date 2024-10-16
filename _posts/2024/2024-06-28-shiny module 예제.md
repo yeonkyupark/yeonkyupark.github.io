@@ -1,8 +1,7 @@
 ---
 title: shiny module 예제
-author: YK
 date: 2024-06-28
-categories: Project
+categories: Interest
 tags:
   - R
   - Shiny

@@ -1,10 +1,10 @@
 ---
 title: datatable 행별로 연산하기
-author: YK
 date: 2024-10-11
-categories: Project
+categories: Interest
 tags:
   - R
+  - datatable
 ---
 
 ## data.table에서 행 단위로 연산하기

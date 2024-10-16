@@ -1,8 +1,7 @@
 ---
 title: Shiny get started
-author: YK
 date: 2024-06-23
-categories: Project
+categories: Interest
 tags:
   - R
   - Shiny

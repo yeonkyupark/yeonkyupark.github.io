@@ -1,8 +1,7 @@
 ---
 title: Chirpy Theme에 web font를 적용해 보자
-author: YK
 date: 2023-10-14 21:56
-categories: Project
+categories: Hobby
 tags:
   - jekyll
   - chirpy

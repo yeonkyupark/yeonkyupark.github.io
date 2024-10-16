@@ -1,7 +1,7 @@
 ---
 title: 옵시디언에서 지원하지 않는 파일 확장자 열기
 date: 2024-10-14
-categories: Project
+categories: Hobby
 tags:
   - obsidian
 image: assets/images/Pasted%20image%2020241015000519.png

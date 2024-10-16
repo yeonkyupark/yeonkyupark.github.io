@@ -1,9 +1,9 @@
 ---
 title: 옵시디언으로 블로그 글 작성하기
-author: YK
 date: 2024-06-22
-categories: 
+categories: Hobby
 tags:
+  - obsidian
 ---
 ## 옵시디언으로 블로그 글 작성하기
 - 옵시디언에서 글 작성 후 → 

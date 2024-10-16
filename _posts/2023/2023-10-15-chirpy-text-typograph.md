@@ -1,9 +1,10 @@
 ---
 title: Chirpy Theme에서 사용하는 마크다운 문법을 알아보자
-author: YK
 date: 2023-10-15 16:39
-categories: 
+categories: Hobby
 tags:
+  - jekyll
+  - chirpy
 ---
 
 자세한 내용은 Chirpy Theme 공식 사이트에서 제공하는 [가이드](https://chirpy.cotes.page/posts/text-and-typography/)를 참고하자.

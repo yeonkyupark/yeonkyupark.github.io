@@ -1,9 +1,8 @@
 ---
 title: 깃허브에서 블로그를 만들어 보자
-author: YK
 date: 2023-10-14 09:14:00 +0900
 categories:
-  - Project
+  - Hobby
 tags:
   - github
   - jekyll

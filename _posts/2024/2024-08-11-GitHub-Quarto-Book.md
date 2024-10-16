@@ -1,11 +1,10 @@
 ---
 title: GitHub와 Quarto Book을 연동하자
-author: YK
 date: 2024-08-11
-categories: Project
+categories: Hobby
 tags:
-  - R
-  - Shiny
+  - Quarto
+  - github
 ---
 ## GitHub와 Quarto Book을 연동하자
 GitHub와 Quarto로 작성한 Book을 연동하고 GitHub Action으로 자동 빌드 및 배포하는 과정을 정리했다.

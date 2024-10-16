@@ -1,8 +1,7 @@
 ---
 title: shiny app - 해파랑길 코스간 거리 계산기
-author: YK
 date: 2024-09-20
-categories: Project
+categories: Interest
 tags:
   - R
   - shiny

@@ -1,7 +1,7 @@
 ---
 title: github build runner update
 date: 2024-10-12
-categories: Project
+categories: Hobby
 tags:
   - github
   - jekyll
