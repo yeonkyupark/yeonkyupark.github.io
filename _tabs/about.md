@@ -16,24 +16,18 @@ order: 4
 
 ## <u>Interests</u>
 
-- Data wrangling with Python and R
+- Data wrangling with [Python](https://yeonkyupark.github.io/tags/python/) and [R](https://yeonkyupark.github.io/tags/r/)
 - Machine/Deep Learing with Structured data
 - Smart Factory & Digital Twin for Manufacturing
-
 ## <u>Hobbies<u/>
 
-- Swimming 1500M 28'58"
-- Walking 제주올레길 1회, 해파랑길(33/50)
-- Bicyling 국토완주 그랜드슬램
+- [Obsidian](https://yeonkyupark.github.io/tags/obsidian/)
+- [Jekyll theme](https://yeonkyupark.github.io/tags/jekyll/)
+- [GitHub](https://yeonkyupark.github.io/tags/github/)
+- Mermaid
 
-## <u>Content in Blog<u/>
+## <u>Personal<u/>
 
-- Language for Big data
-	- R
-	- Python
-	- SQLite
-- Tools
-	- Obsidian
-	- GitHub
-	- Jekyll theme
-	- Mermaid
+- Swimming [1500M 28'58"](https://www.instagram.com/p/C_Wr-KrSbOr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- Walking [제주올레길 1회](https://www.instagram.com/p/CtQNsuayuh5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), [해파랑길(33/50)](https://www.instagram.com/p/DBDPBKaBkZK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- Bicyling [국토완주 그랜드슬램](https://www.instagram.com/p/CRNnpMbBVvo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
