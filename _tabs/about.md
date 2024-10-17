@@ -23,8 +23,8 @@ order: 4
 ## <u>Hobbies<u/>
 
 - [Obsidian](https://yeonkyupark.github.io/tags/obsidian/)
-- [Rstudio]()
-- [Quarto]()
+- [Rstudio](https://yeonkyupark.github.io/tags/rstudio/)
+- [Quarto](https://yeonkyupark.github.io/tags/quarto/)
 - [Jekyll theme](https://yeonkyupark.github.io/tags/jekyll/)
 - [GitHub](https://yeonkyupark.github.io/tags/github/)
 - Mermaid
