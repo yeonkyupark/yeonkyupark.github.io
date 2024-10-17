@@ -12,6 +12,7 @@ math: true
 mermaid: true
 description: python에서 그룹별 유일한(unique)한 범주를 구하는 방법을 알아본다.
 ---
+
 ## python에서 그룹별 범주 구하기
 
 `groupby()`와 `unique()` 함수를 통해 그룹별 범주형 컬럼에서 유일한 값을 계산한다.
