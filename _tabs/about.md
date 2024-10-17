@@ -18,6 +18,7 @@ order: 4
 
 - Data wrangling with [Python](https://yeonkyupark.github.io/tags/python/) and [R](https://yeonkyupark.github.io/tags/r/)
 - Machine/Deep Learing with Structured data
+  - [이것이 자료구조+알고리즘이다 with C 언어](https://books.google.co.kr/books/about/%EC%9D%B4%EA%B2%83%EC%9D%B4_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%B4.html?id=L3mAEAAAQBAJ&source=kp_book_description&redir_esc=y)
 - Smart Factory & Digital Twin for Manufacturing
 
 ## <u>Hobbies<u/>
