@@ -47,6 +47,38 @@ df.groupby(['species'])['island'].nunique()
     Gentoo       1
     Name: island, dtype: int64
 
+## R에서 그룹별 범주 구하기
+
+```r
+library(dplyr)
+df <- palmerpenguins::penguins
+df %>% 
+  group_by(species) %>% 
+  reframe(categories = unique(island))
+```
+
+	# A tibble: 5 × 2
+	  species   categories
+	    <fct>     <fct>     
+	    1 Adelie    Torgersen 
+	    2 Adelie    Biscoe    
+	    3 Adelie    Dream     
+	    4 Chinstrap Dream     
+	    5 Gentoo    Biscoe 
+
+```r
+df %>% 
+  group_by(species) %>% 
+  reframe(categories = n_distinct(island))
+```
+
+	# A tibble: 3 × 2
+	  species   categories
+	  <fct>          <int>
+	1 Adelie             3
+	2 Chinstrap          1
+	3 Gentoo             1
+
 
 ## Reference
 1. https://pandas.pydata.org/docs/reference/api/pandas.unique.html
