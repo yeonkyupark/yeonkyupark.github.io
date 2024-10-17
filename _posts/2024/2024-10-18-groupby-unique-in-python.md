@@ -32,21 +32,21 @@ df.groupby(['species'])['island'].unique()
 
 ```
 
-    species
-    Adelie       [Torgersen, Biscoe, Dream]
-    Chinstrap                       [Dream]
-    Gentoo                         [Biscoe]
-    Name: island, dtype: object
+	species
+	Adelie       [Torgersen, Biscoe, Dream]
+	Chinstrap                       [Dream]
+	Gentoo                         [Biscoe]
+	Name: island, dtype: object
 
 ```python
 df.groupby(['species'])['island'].nunique()
 ```
 
-    species
-    Adelie       3
-    Chinstrap    1
-    Gentoo       1
-    Name: island, dtype: int64
+	species
+	Adelie       3
+	Chinstrap    1
+	Gentoo       1
+	Name: island, dtype: int64
 
 ## R에서 그룹별 범주 구하기
 
@@ -60,12 +60,12 @@ df %>%
 
 	# A tibble: 5 × 2
 	  species   categories
-	    <fct>     <fct>     
-	    1 Adelie    Torgersen 
-	    2 Adelie    Biscoe    
-	    3 Adelie    Dream     
-	    4 Chinstrap Dream     
-	    5 Gentoo    Biscoe 
+	<fct>     <fct>     
+	1 Adelie    Torgersen 
+	2 Adelie    Biscoe    
+	3 Adelie    Dream     
+	4 Chinstrap Dream     
+	5 Gentoo    Biscoe 
 
 ```r
 df %>% 
@@ -82,4 +82,4 @@ df %>%
 
 
 ## Reference
-1. https://pandas.pydata.org/docs/reference/api/pandas.unique.html
+1. [https://pandas.pydata.org/docs/reference/api/pandas.unique.html](https://pandas.pydata.org/docs/reference/api/pandas.unique.html)
