@@ -5,7 +5,7 @@ categories: Interest
 tags:
   - shiny
   - R
-image: /assets/images/logo_r.png
+image: /assets/images/logo_R.png
 toc: true
 pin: false
 math: true
