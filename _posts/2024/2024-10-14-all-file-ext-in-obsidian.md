@@ -4,7 +4,7 @@ date: 2024-10-14
 categories: Hobby
 tags:
   - obsidian
-image: assets/images/Pasted%20image%2020241015000519.png
+image: /assets/images/logo_obsidian.png
 toc: true
 pin: false
 math: true
