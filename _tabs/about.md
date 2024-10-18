@@ -32,5 +32,5 @@ order: 4
 ## <u>Personal<u/>
 
 - Swimming [1500M 28'58"](https://www.instagram.com/p/C_Wr-KrSbOr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
-- Walking [제주올레길 1회](https://www.instagram.com/p/CtQNsuayuh5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), [해파랑길(33/50)](https://www.instagram.com/p/DBDPBKaBkZK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
-- Bicyling [국토완주 그랜드슬램](https://www.instagram.com/p/CRNnpMbBVvo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- Walking [10만보 걷기 2020](https://www.instagram.com/p/B8BkqZOg4sQ/?igsh=MXAwYmVrbXlnOGRqbQ==), [제주올레길 2023](https://www.instagram.com/p/CtQNsuayuh5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), [해파랑길(33/50)](https://www.instagram.com/p/DBDPBKaBkZK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- Bicyling [국토완주 그랜드슬램 2022](https://www.instagram.com/p/CRNnpMbBVvo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
