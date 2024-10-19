@@ -15,7 +15,6 @@ description:
 ## Jekyll Chirpy 테마에 배너 달기
 
 Jekyll Chirpy 테마에 아래와 같이 배너를 추가하는 방법이다[^1].  
-[^1] [EP25. 블로그에 상단 배너 추가하기](https://www.youtube.com/watch?v=fo3tpjxZbZQ&list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY&index=12)
 
 ![](/assets/images/2024-10-20-banner-in-chirpy.png)
 ## 배너에 표시할 내용 만들기
@@ -32,7 +31,7 @@ Jekyll Chirpy 테마에 아래와 같이 배너를 추가하는 방법이다[^1]
 ## 배너 배치하기
 
 배너를 출력할 적당한 위치를 선정한다. 본 예에서는 개별 게시물 상단에 출력한다. 따라서 개별 게시물과 관련된 `/layouts/post.hmtl` 파일을 아래와 같이 수정한다.
-
+{% raw %}
 ```
 ---
 layout: default
@@ -60,11 +59,11 @@ tail_includes:
     {% endif %}
 
 ```
+{% endraw %}
 
 `toc-status.html`과 `<article>` 영역 사이에 작성한 배너를 삽입한다. 이때 작성한 배너 파일명과 동일한지 확인한다. 특별한 문제가 없다면 첫 이미지와 같이 게시물 상단에 공지사항을 표시할 수 있다.
 
-> chirpy-starter[^2]로 테마를 적용한 경우 `/_includes`, `/_layouts` 폴더가 없다. [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)에서 복사하여 본인 소스에 붙여 넣는다.  
-[^2] [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)  
+> chirpy-starter[^2]로 테마를 적용한 경우 `/_includes`, `/_layouts` 폴더가 없다. [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)에서 복사하여 본인 소스에 붙여 넣는다.    
 {: .prompt-warning}
 
 
@@ -72,3 +71,7 @@ tail_includes:
 {: .prompt-info}
 
 ## 참고자료
+
+[^1] [EP25. 블로그에 상단 배너 추가하기](https://www.youtube.com/watch?v=fo3tpjxZbZQ&list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY&index=12)
+
+[^2] [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)
