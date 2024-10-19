@@ -17,6 +17,7 @@ description:
 Jekyll Chirpy 테마에 아래와 같이 배너를 추가하는 방법이다[^1].  
 
 ![](/assets/images/2024-10-20-banner-in-chirpy.png)
+
 ## 배너에 표시할 내용 만들기
 
 아래와 같이 배너에 표시할 내용을 작성하여 `/_includes` 폴더 밑에 저장한다(예, `my_notice.html`).
@@ -48,7 +49,7 @@ tail_includes:
 
 {% include toc-status.html %}
 
-{% include my_notice.html %} <!-- 여기에 추가한다 -->
+{% include my_notice.html %} <!-- 여기에 작성한 배너 파일을 추가한다 -->
 
 
 <article class="px-1" data-toc="{{ enable_toc }}">
@@ -67,7 +68,7 @@ tail_includes:
 {: .prompt-warning}
 
 
-> `prompt`와 유사한 `box`를 사용하기 위해서는 `assets/css/jekyll-theme-chirpy.scss` 파일에 아래 [관련 코드](https://github.com/cotes2020/jekyll-theme-chirpy/discussions/1707)를 추가한다.  
+> `prompt`와 유사한 `box`[^3]를 사용하기 위해서는 `assets/css/jekyll-theme-chirpy.scss` 파일에 아래 [관련 코드](https://github.com/cotes2020/jekyll-theme-chirpy/discussions/1707)를 추가한다.  
 {: .prompt-info}
 
 ## 참고자료
@@ -75,3 +76,5 @@ tail_includes:
 [^1]: [EP25. 블로그에 상단 배너 추가하기](https://www.youtube.com/watch?v=fo3tpjxZbZQ&list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY&index=12)
 
 [^2]: [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)
+
+[^3]: [https://github.com/cotes2020/jekyll-theme-chirpy/discussions/1707](https://github.com/cotes2020/jekyll-theme-chirpy/discussions/1707)
