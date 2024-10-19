@@ -4,7 +4,7 @@ date: 2024-10-13
 categories: Interest
 tags:
   - python
-image: /assets/images/Pasted%20image%2020241014231010.png
+image: /assets/images/logo_python.png
 toc: true
 pin: false
 math: true
