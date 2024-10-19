@@ -32,7 +32,7 @@ Jekyll Chirpy 테마에 아래와 같이 배너를 추가하는 방법이다[^1]
 
 배너를 출력할 적당한 위치를 선정한다. 본 예에서는 개별 게시물 상단에 출력한다. 따라서 개별 게시물과 관련된 `/layouts/post.hmtl` 파일을 아래와 같이 수정한다.
 {% raw %}
-```
+```html
 ---
 layout: default
 refactor: true
@@ -48,7 +48,7 @@ tail_includes:
 
 {% include toc-status.html %}
 
-{% include my_notice.html %}
+{% include my_notice.html %} <!-- 여기에 추가한다 -->
 
 
 <article class="px-1" data-toc="{{ enable_toc }}">
@@ -72,6 +72,6 @@ tail_includes:
 
 ## 참고자료
 
-[^1] [EP25. 블로그에 상단 배너 추가하기](https://www.youtube.com/watch?v=fo3tpjxZbZQ&list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY&index=12)
+[^1]: [EP25. 블로그에 상단 배너 추가하기](https://www.youtube.com/watch?v=fo3tpjxZbZQ&list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY&index=12)
 
-[^2] [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)
+[^2]: [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)
