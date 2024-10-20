@@ -7,6 +7,8 @@ toc: true
 order: 4
 ---
 
+![](/assets/img/avatar.png){: width="640" }
+
 # [Yeonkyu PARK](https://github.com/yeonkyupark/)
 
 데이터 분석, ML/DL, 스마트팩토리 관련 업무를 하고 있습니다.
