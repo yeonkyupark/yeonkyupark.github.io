@@ -8,6 +8,7 @@ order: 4
 ---
 
 ![drawed by Codal](/assets/img/avatar.png){: width="320" }
+_drawed by Codal_
 
 # [Yeonkyu PARK](https://github.com/yeonkyupark/)
 
