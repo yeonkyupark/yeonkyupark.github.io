@@ -1,14 +1,17 @@
 ---
 title: 데이터프레임에서 행과 열 추가 및 삭제하기
 date: 2024-10-20
-categories: 
+categories: Interest
 tags:
-image: 
+  - python
+  - R
+  - wrangling
+image: /assets/images/logo_wrangling.png
 toc: true
 pin: false
 math: true
 mermaid: true
-description: 
+description: 행과 열로 구성되어 있는 데이터프레임 자료형에 데이터를 삽입과 삭제하는 방법을 알아 본다.
 ---
 ## 데이터프레임에서 행과 열 추가 및 삭제하기
 
@@ -127,8 +130,8 @@ pd.concat([df, df_new], ignore_index = True).tail()
 
 
 ## 참고자료
-[^1]: [# How to add one row in an existing Pandas DataFrame?](https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/)
+[^1]: [How to add one row in an existing Pandas DataFrame?](https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/)
 
 [^append]: [pandas.DataFrame.append](https://pandas.pydata.org/pandas-docs/version/1.4/reference/api/pandas.DataFrame.append.html)
 
-[^pandas.concat]: [pandas.concat](https://pandas.pydata.org/pandas-docs/version/1.4/reference/api/pandas.concat.html?highlight=concat#pandas.concat)
+[^concat]: [pandas.concat](https://pandas.pydata.org/pandas-docs/version/1.4/reference/api/pandas.concat.html?highlight=concat#pandas.concat)
