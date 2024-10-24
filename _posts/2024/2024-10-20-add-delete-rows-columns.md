@@ -161,11 +161,11 @@ df.head()
 
 > | |species | island | bill_length_mm | bill_depth_mm | flipper_length_mm | body_mass_g | sex
 -- | -- | -- | -- | -- | -- | --
-Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0 | Male
-Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0 | Female
-Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0 | Female
-Adelie | Torgersen | NaN | NaN | NaN | NaN | NaN
-Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0 | Female
+| | Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0 | Male
+| | Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0 | Female
+| | Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0 | Female
+| | Adelie | Torgersen | NaN | NaN | NaN | NaN | NaN
+| | Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0 | Female
 
 ```python
 bill_ratio = df['bill_length_mm']/df['bill_depth_mm']
@@ -193,11 +193,11 @@ df.head()
 
 > | | species | island | bill_length_mm | bill_depth_mm | flipper_length_mm | body_mass_g | sex | bill_ratio
 -- | -- | -- | -- | -- | -- | -- | --
-Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0 | Male | 2.090909
-Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0 | Female | 2.270115
-Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0 | Female | 2.238889
-Adelie | Torgersen | NaN | NaN | NaN | NaN | NaN | NaN
-Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0 | Female | 1.901554
+| | Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0 | Male | 2.090909
+| | Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0 | Female | 2.270115
+| | Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0 | Female | 2.238889
+| | Adelie | Torgersen | NaN | NaN | NaN | NaN | NaN | NaN
+| | Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0 | Female | 1.901554
 
 ##### 열 삭제
 
@@ -208,11 +208,11 @@ df.head()
 
 > | |species | island | bill_length_mm | bill_depth_mm | flipper_length_mm | body_mass_g
 -- | -- | -- | -- | -- | --
-Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0
-Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0
-Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0
-Adelie | Torgersen | NaN | NaN | NaN | NaN
-Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0
+| | Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0
+| | Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0
+| | Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0
+| | Adelie | Torgersen | NaN | NaN | NaN | NaN
+| | Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0
 
 원본 데이터에 반영이 필요한 경우 `inplace=True` 옵션을 적용한다.
 
