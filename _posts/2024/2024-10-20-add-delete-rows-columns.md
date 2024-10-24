@@ -172,7 +172,7 @@ bill_ratio = df['bill_length_mm']/df['bill_depth_mm']
 bill_ratio
 ```
 
-0      2.090909
+> ```0      2.090909
 1      2.270115
 2      2.238889
 3           NaN
@@ -184,7 +184,7 @@ bill_ratio
 342    3.054054
 343    3.099379
 Length: 344, dtype: float64
-
+```
 
 ```python
 df['bill_ratio'] = bill_ratio
