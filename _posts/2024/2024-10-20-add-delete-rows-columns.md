@@ -159,100 +159,45 @@ df = sns.load_dataset("penguins")
 df.head()
 ```
 
+> | |species | island | bill_length_mm | bill_depth_mm | flipper_length_mm | body_mass_g | sex
+-- | -- | -- | -- | -- | -- | --
+Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0 | Male
+Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0 | Female
+Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0 | Female
+Adelie | Torgersen | NaN | NaN | NaN | NaN | NaN
+Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0 | Female
+
 ```python
 bill_ratio = df['bill_length_mm']/df['bill_depth_mm']
 bill_ratio
+```
+
+0      2.090909
+1      2.270115
+2      2.238889
+3           NaN
+4      1.901554
+         ...   
+339         NaN
+340    3.272727
+341    3.210191
+342    3.054054
+343    3.099379
+Length: 344, dtype: float64
+
+
+```python
 df['bill_ratio'] = bill_ratio
 df.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>species</th>
-      <th>island</th>
-      <th>bill_length_mm</th>
-      <th>bill_depth_mm</th>
-      <th>flipper_length_mm</th>
-      <th>body_mass_g</th>
-      <th>sex</th>
-      <th>bill_ratio</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>39.1</td>
-      <td>18.7</td>
-      <td>181.0</td>
-      <td>3750.0</td>
-      <td>Male</td>
-      <td>2.090909</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>39.5</td>
-      <td>17.4</td>
-      <td>186.0</td>
-      <td>3800.0</td>
-      <td>Female</td>
-      <td>2.270115</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>40.3</td>
-      <td>18.0</td>
-      <td>195.0</td>
-      <td>3250.0</td>
-      <td>Female</td>
-      <td>2.238889</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>36.7</td>
-      <td>19.3</td>
-      <td>193.0</td>
-      <td>3450.0</td>
-      <td>Female</td>
-      <td>1.901554</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+> | | species | island | bill_length_mm | bill_depth_mm | flipper_length_mm | body_mass_g | sex | bill_ratio
+-- | -- | -- | -- | -- | -- | -- | --
+Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0 | Male | 2.090909
+Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0 | Female | 2.270115
+Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0 | Female | 2.238889
+Adelie | Torgersen | NaN | NaN | NaN | NaN | NaN | NaN
+Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0 | Female | 1.901554
 
 ##### 열 삭제
 
@@ -261,81 +206,13 @@ df.drop(columns = ['sex', 'bill_ratio'], inplace=True)
 df.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>species</th>
-      <th>island</th>
-      <th>bill_length_mm</th>
-      <th>bill_depth_mm</th>
-      <th>flipper_length_mm</th>
-      <th>body_mass_g</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>39.1</td>
-      <td>18.7</td>
-      <td>181.0</td>
-      <td>3750.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>39.5</td>
-      <td>17.4</td>
-      <td>186.0</td>
-      <td>3800.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>40.3</td>
-      <td>18.0</td>
-      <td>195.0</td>
-      <td>3250.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>36.7</td>
-      <td>19.3</td>
-      <td>193.0</td>
-      <td>3450.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+> | |species | island | bill_length_mm | bill_depth_mm | flipper_length_mm | body_mass_g
+-- | -- | -- | -- | -- | --
+Adelie | Torgersen | 39.1 | 18.7 | 181.0 | 3750.0
+Adelie | Torgersen | 39.5 | 17.4 | 186.0 | 3800.0
+Adelie | Torgersen | 40.3 | 18.0 | 195.0 | 3250.0
+Adelie | Torgersen | NaN | NaN | NaN | NaN
+Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0
 
 원본 데이터에 반영이 필요한 경우 `inplace=True` 옵션을 적용한다.
 
