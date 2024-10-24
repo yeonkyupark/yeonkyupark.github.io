@@ -1,10 +1,9 @@
 ---
-title: 데이터프레임에서 행과 열 추가 및 삭제하기
+title: Python DataFrame에서 행과 열 추가 및 삭제하기
 date: 2024-10-20
 categories: Interest
 tags:
   - python
-  - R
   - wrangling
 image: /assets/images/logo_wrangling.png
 toc: true
@@ -172,7 +171,7 @@ bill_ratio = df['bill_length_mm']/df['bill_depth_mm']
 bill_ratio
 ```
 
-> ```
+```
 0      2.090909
 1      2.270115
 2      2.238889
@@ -216,21 +215,6 @@ df.head()
 | | Adelie | Torgersen | 36.7 | 19.3 | 193.0 | 3450.0
 
 원본 데이터에 반영이 필요한 경우 `inplace=True` 옵션을 적용한다.
-
-
-### R
-
-#### 행 추가 및 삭제
-
-##### 행 추가
-
-##### 행 삭제
-
-#### 열 추가 및 삭제
-
-##### 열 추가
-
-##### 열 삭제
 
 
 ## 참고자료
