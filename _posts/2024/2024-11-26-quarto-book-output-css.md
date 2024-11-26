@@ -1,6 +1,6 @@
 ---
-title: "Quarto Book 실행 코드 출력물 스타일을 바꿔보자"
-date: "2024-11-26"
+title: Quarto Book 실행 코드 출력물 스타일을 바꿔보자
+date: 2024-11-26
 categories: Hobby
 tags: 
   - quarto
@@ -11,7 +11,6 @@ math: true
 mermaid: true
 description: 
 ---
-
 ## Quarto Book 실행 코드 출력물 스타일을 바꿔보자
 
 style.css 파일에 아래와 같이 실행 코드 산출물 배경색을 정의 한다.
