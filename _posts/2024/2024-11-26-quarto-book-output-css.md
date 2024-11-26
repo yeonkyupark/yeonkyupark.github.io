@@ -1,27 +1,29 @@
 ---
-title: Quarto Book 실행 코드 출력물 스타일을 바꿔보자
-date: 2024-11-26
+title: "Quarto Book 실행 코드 출력물 스타일을 바꿔보자"
+date: "2024-11-26"
 categories: Hobby
-tags:
+tags: 
   - quarto
 image: /assets/images/rstudio_log.png
 toc: true
 pin: false
 math: true
 mermaid: true
-description:
+description: null
 ---
 
 ## Quarto Book 실행 코드 출력물 스타일을 바꿔보자
 
 style.css 파일에 아래와 같이 실행 코드 산출물 배경색을 정의 한다.
 
+{% raw %}
 ```css
 .styled-output .cell-output {
   background-color: silver;
   border-radius: 4px;
 }
 ```
+{% endraw %}
 
 그리고 파일 상단에 `css: style.css`를 추가한다.
 
