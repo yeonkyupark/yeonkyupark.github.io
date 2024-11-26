@@ -28,7 +28,7 @@ style.css 파일에 아래와 같이 실행 코드 산출물 배경색을 정의
 {% endraw %}
 
 {% raw %}
-```qmd
+```markdown
 ---
 title: "Untitled"
 format: html
