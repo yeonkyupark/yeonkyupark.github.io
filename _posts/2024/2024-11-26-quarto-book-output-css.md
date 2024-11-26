@@ -16,19 +16,7 @@ description: null
 
 style.css 파일에 아래와 같이 실행 코드 산출물 배경색을 정의 한다.
 
-
-
 그리고 파일 상단에 `css: style.css`를 추가한다.
-
-{% raw %}
-```qmd
----
-title: "Untitled"
-format: html
-css: style.css
----
-```
-{% endraw %}
 
 ## Reference
 
