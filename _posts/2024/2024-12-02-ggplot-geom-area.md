@@ -1,7 +1,7 @@
 ---
 title: geom_area를 이용하여 정규분포를 표현해 보자
 date: 2024-12-02
-categories: Hobby
+categories: Interest
 tags: 
   - ggplot
 image: /assets/images/logo_ggplot2.png
@@ -30,3 +30,4 @@ ggplot(df_norm, aes (x = x, y = density)) +
     theme_classic()
 ```
 
+![](/assets/images/2024-12-02-ggplot-geom-area.png)
