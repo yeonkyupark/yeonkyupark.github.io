@@ -31,3 +31,5 @@ assets/js/dist
 /.trash
 /template
 .Rproj.user
+.RData
+.Rhistory
