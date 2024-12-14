@@ -4,7 +4,7 @@ date: 2024-12-02
 categories: Interest
 tags: 
   - ggplot
-image: /assets/images/logo_ggplot2.png
+image: /assets/images/logo_ggplot.png
 toc: true
 pin: false
 math: true

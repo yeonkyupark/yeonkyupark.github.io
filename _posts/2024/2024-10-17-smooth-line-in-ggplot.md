@@ -5,7 +5,7 @@ categories: Interest
 tags:
   - R
   - ggplot
-image: /assets/images/logo_ggplot2.png
+image: /assets/images/logo_ggplot.png
 toc: true
 pin: false
 math: true
