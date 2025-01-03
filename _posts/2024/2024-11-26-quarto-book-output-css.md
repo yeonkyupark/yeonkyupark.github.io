@@ -1,7 +1,7 @@
 ---
 title: Quarto Book 실행 코드 출력물 스타일을 바꿔보자
 date: 2024-11-26
-categories: jobby
+categories: hobby
 tags: 
   - quarto
 image: /assets/images/logo_rstudio.png

@@ -1,7 +1,7 @@
 ---
 title: shiny app 모듈 구조
 date: 2024-10-18
-categories: Iinterest
+categories: interest
 tags:
   - shiny
   - r
