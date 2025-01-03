@@ -1,7 +1,7 @@
 ---
 title: 파이썬에서 사용하는 자료형
 date: 2024-10-13
-categories: Interest
+categories: interest
 tags:
   - python
 image: /assets/images/logo_python.png

@@ -1,10 +1,10 @@
 ---
 title: RStudio에서 libPath를 설정하자
 date: 2024-09-19
-categories: Interest
+categories: interest
 tags:
-  - R
-  - Rstudio
+  - r
+  - rstudio
 ---
 ## RStudio에서 R package 설치 경로 확인
 R에서는 다양한 패키지를 제공하고 있다. 패키지는 버전에 따라 설치되는 경로가 다를 수 있다. 즉 R 버전이 다양하면 다양한 버전만큼 패키지를 다운로드하여 자신 PC에 설치를 하게 된다. 참고라 현 시점 R 버전은 4.4.1이고 lib를 설치하는 기본 경로는 다음과 같다.

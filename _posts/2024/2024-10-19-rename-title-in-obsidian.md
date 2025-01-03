@@ -1,7 +1,7 @@
 ---
 title: 새 문서 작성 시 파일 이름 변경하기
 date: 2024-10-19
-categories: Hobby
+categories: hobby
 tags:
   - obsidian
   - plugin

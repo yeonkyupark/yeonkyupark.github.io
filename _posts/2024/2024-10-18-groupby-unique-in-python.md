@@ -1,10 +1,10 @@
 ---
 title: python에서 그룹별 범주 구하기
 date: 2024-10-18
-categories: Interest
+categories: interest
 tags:
   - python
-  - R
+  - r
 image: /assets/images/logo_python.png
 toc: true
 pin: false

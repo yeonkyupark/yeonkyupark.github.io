@@ -1,7 +1,7 @@
 ---
 title: 블로그(chripy theme)에 조회수 기록하기
 date: 2024-10-12
-categories: Hobby
+categories: hobby
 tags:
   - jekyll
   - chirpy

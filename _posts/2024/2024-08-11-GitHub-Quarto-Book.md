@@ -1,9 +1,9 @@
 ---
 title: GitHub와 Quarto Book을 연동하자
 date: 2024-08-11
-categories: Hobby
+categories: hobby
 tags:
-  - Quarto
+  - quarto
   - github
 ---
 ## GitHub와 Quarto Book을 연동하자

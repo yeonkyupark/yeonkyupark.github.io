@@ -1,7 +1,7 @@
 ---
 title: Python DataFrame에서 행과 열 추가 및 삭제하기
 date: 2024-10-20
-categories: Interest
+categories: interest
 tags:
   - python
   - wrangling

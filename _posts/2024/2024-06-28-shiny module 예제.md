@@ -1,10 +1,10 @@
 ---
 title: shiny module 예제
 date: 2024-06-28
-categories: Interest
+categories: interest
 tags:
-  - R
-  - Shiny
+  - r
+  - shiny
 ---
 ## ui, server 함수로 작성된 코드
 

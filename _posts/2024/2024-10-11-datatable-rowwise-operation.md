@@ -1,10 +1,10 @@
 ---
-title: datatable 행별로 연산하기
+title: data.table 행별로 연산하기
 date: 2024-10-11
-categories: Interest
+categories: interest
 tags:
-  - R
-  - datatable
+  - r
+  - data.table
 ---
 
 ## data.table에서 행 단위로 연산하기

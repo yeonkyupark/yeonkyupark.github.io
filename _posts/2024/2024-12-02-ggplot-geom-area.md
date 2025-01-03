@@ -1,7 +1,7 @@
 ---
 title: geom_area를 이용하여 정규분포를 표현해 보자
 date: 2024-12-02
-categories: Interest
+categories: interest
 tags: 
   - ggplot
 image: /assets/images/logo_ggplot.png

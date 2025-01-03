@@ -1,7 +1,7 @@
 ---
 title: 옵시디언과 Dropbox를 연동해 보자
 date: 2023-10-15 10:38
-categories: Hobby
+categories: hobby
 tags:
   - obsidian
   - dropbox

@@ -1,7 +1,7 @@
 ---
 title: 옵시디언으로 블로그 글 작성하기
 date: 2024-06-22
-categories: Hobby
+categories: hobby
 tags:
   - obsidian
 ---

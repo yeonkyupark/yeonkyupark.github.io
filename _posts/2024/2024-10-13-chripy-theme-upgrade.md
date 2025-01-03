@@ -1,7 +1,7 @@
 ---
 title: Chirpy theme upgrade
 date: 2024-10-12
-categories: Hobby
+categories: hobby
 tags:
   - github
   - jekyll

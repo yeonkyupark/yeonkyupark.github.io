@@ -1,10 +1,10 @@
 ---
 title: 반응형 출력 (Rective output)
 date: 2024-06-27
-categories: Interest
+categories: interest
 tags:
-  - R
-  - Shiny
+  - r
+  - shiny
 ---
 ## reactive output을 위한 2단계 진행
 반응형 출력(reactive output)을 위해서는 2단계로 진행한다.

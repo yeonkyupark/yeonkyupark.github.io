@@ -1,7 +1,7 @@
 ---
 title: SQLite
 date: 2024-10-19
-categories: Interest
+categories: interest
 tags:
   - sqlite
 image: /assets/images/logo_sqlite.png

@@ -1,10 +1,10 @@
 ---
 title: Shiny get started
 date: 2024-06-23
-categories: Interest
+categories: interest
 tags:
-  - R
-  - Shiny
+  - r
+  - shiny
 ---
 ## Shiny Package
 ![](https://shiny.posit.co/images/shiny-solo.png)

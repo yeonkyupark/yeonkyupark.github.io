@@ -1,9 +1,9 @@
 ---
 title: lubridate를 이용한 해당 월 첫날 계산하기
 date: 2024-06-28
-categories: Interest
+categories: interest
 tags:
-  - R
+  - r
   - lubridate
 ---
 ## Basic

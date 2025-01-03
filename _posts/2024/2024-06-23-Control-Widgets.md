@@ -1,10 +1,10 @@
 ---
 title: Control Widgets
 date: 2024-06-23
-categories: Interest
+categories: interest
 tags:
-  - R
-  - Shiny
+  - r
+  - shiny
 ---
 ## 기본 Widgets
 ![](https://shiny.posit.co/r/getstarted/shiny-basics/lesson3/images/basic-widgets.png)

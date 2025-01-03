@@ -1,7 +1,7 @@
 ---
 title: Chirpy theme sidebar 폭 조절하기
 date: 2024-12-08
-categories: Hobby
+categories: hobby
 tags: 
   - chirpy
 image: /assets/images/logo_chirpy.png

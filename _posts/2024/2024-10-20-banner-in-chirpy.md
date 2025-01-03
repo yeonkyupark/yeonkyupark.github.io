@@ -1,7 +1,7 @@
 ---
 title: Jekyll Chirpy 테마에 배너 달기
 date: 2024-10-20
-categories: Hobby
+categories: hobby
 tags:
   - jekyll
   - chirpy

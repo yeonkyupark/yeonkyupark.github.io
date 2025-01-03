@@ -1,7 +1,7 @@
 ---
 title: SQLite 기존 테이블에 csv 파일 INSERT(import) 하기
 date: 2024-10-19
-categories: Interest
+categories: interest
 tags:
   - sqlite
 image: /assets/images/logo_sqlite.png

@@ -2,7 +2,7 @@
 title: 옵시디언 Git Plugin
 author: YK
 date: 2024-06-23
-categories: Hobby
+categories: hobby
 tags:
   - obsidian
   - plugin

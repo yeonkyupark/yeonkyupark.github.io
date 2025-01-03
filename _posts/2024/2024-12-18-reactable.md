@@ -1,9 +1,9 @@
 ---
 title: reactable 패키지를 이용한 집계 표 만들기
 date: 2024-12-18
-categories: Interest
+categories: interest
 tags: 
-  - R
+  - r
   - shiny
 image: /assets/images/logo_R.png
 toc: true

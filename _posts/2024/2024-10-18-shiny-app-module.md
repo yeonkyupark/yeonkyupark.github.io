@@ -1,10 +1,10 @@
 ---
 title: shiny app 모듈 구조
 date: 2024-10-18
-categories: Interest
+categories: Iinterest
 tags:
   - shiny
-  - R
+  - r
 image: /assets/images/logo_R.png
 toc: true
 pin: false
