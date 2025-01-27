@@ -22,6 +22,7 @@ _drawed by Codal_
 - Data wrangling with [Python](https://yeonkyupark.github.io/tags/python/) and [R](https://yeonkyupark.github.io/tags/r/)
 - Machine/Deep Learing with Structured data
 - Smart Factory & Digital Twin for Manufacturing
+- [Professional Engineer Plant Control](https://yeonkyupark.github.io/pepc2e/)
 
 ## <u>Hobbies<u/>
 
