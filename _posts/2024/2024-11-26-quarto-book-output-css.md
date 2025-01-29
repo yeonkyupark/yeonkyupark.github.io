@@ -4,7 +4,7 @@ date: 2024-11-26
 categories: hobby
 tags: 
   - quarto
-image: /assets/images/logo_rstudio.png
+image: /assets/images/logo_quarto.png
 toc: true
 pin: false
 math: true
