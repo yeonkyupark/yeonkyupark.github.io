@@ -24,8 +24,8 @@
 
 - type: new_post
   icon: "fa-solid fa-circle-plus"
-  url:  https://github.com/yeonkyupark/yeonkyupark.github.io/new/main/_posts/2025
-
+  url:  https://github.com/yeonkyupark/yeonkyupark.github.io/new/main/_posts
+  
 # - type: rss
 #   icon: "fas fa-rss"
 #   noblank: true
