@@ -24,7 +24,7 @@
 
 - type: new_post
   icon: "fa-solid fa-circle-plus"
-  url:  https://github.com/yeonkyupark/yeonkyupark.github.io/new/main?filename=_posts/{{now | date: "%Y" }}/{{now | date: "%Y-%m-%d"}}-new-post.md
+  url:  [](https://github.com/yeonkyupark/yeonkyupark.github.io/new/main?filename=_posts/{{now | date: "%Y" }}/{{now | date: "%Y-%m-%d"}}-new-post.md)
 #   url:  "https://github.com/yeonkyupark/yeonkyupark.github.io/new/main?filename=_posts/{{ site.time | date: '%Y' }}/{{ site.time | date: '%Y-%m-%d' }}.md&value=---
 # title:  
 # date: {{ site.time | date: '%Y-%m-%d' }}
