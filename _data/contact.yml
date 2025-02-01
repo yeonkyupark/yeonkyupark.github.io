@@ -22,6 +22,10 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
+- type: new_post
+  icon: "fa-solid fa-circle-plus"
+  url:  https://github.com/yeonkyupark/yeonkyupark.github.io/new/main/_posts/2025
+
 # - type: rss
 #   icon: "fas fa-rss"
 #   noblank: true
