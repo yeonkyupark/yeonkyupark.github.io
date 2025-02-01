@@ -24,8 +24,18 @@
 
 - type: new_post
   icon: "fa-solid fa-circle-plus"
-  # url:  https://github.com/yeonkyupark/yeonkyupark.github.io/new/main/_posts/2025
-  url: https://github.com/{username}/{repository}/new/main?filename=_posts/2025/{{ site.time | date: '%Y-%m-%d' }}.md
+  url:  https://github.com/yeonkyupark/yeonkyupark.github.io/new/main?filename=_posts/{{ site.time | date: '%Y' }}/{{ site.time | date: '%Y-%m-%d' }}.md&value=---
+title:  
+date: {{ site.time | date: '%Y-%m-%d' }}
+categories: [interest, hobby]
+tags: [r, python]
+image: /assets/images/logo_python.png
+toc: true
+pin: false
+math: true
+mermaid: true
+description: 
+---
 
 # - type: rss
 #   icon: "fas fa-rss"
