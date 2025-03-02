@@ -152,6 +152,7 @@ paginate: 5
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
 # The base URL of your site
 baseurl: ""
