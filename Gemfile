@@ -6,6 +6,7 @@ gem "jekyll-theme-chirpy", "~> 7.2"
 
 gem "html-proofer", "~> 5.0", group: :test
 
+gem "jekyll-sitemap"
 gem "jekyll-feed"
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
