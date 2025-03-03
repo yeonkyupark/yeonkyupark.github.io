@@ -1,5 +1,5 @@
 ---
-title: "Github에 새 글 등록하는 아이콘 만들기"
+title: "블로그에서 Github에 새 글 등록"
 date: "2025-03-02" 
 categories: [hobby]
 tags: [github]
@@ -11,7 +11,7 @@ mermaid: true
 description: 
 ---
 
-## Github에 새 글 등록하는 아이콘 만들기
+## 블로그에서 Github에 새 글 등록하는 방법
 
 Github에서 운영중인 블로그에 글을 작성하려면 Github 사이트나 로컬에서 작성 후 commit을 했다. 블로그에서 바로 글을 작성할 수 있으면 편할 듯 하여 방법을 찾아봤다.
 
@@ -55,5 +55,5 @@ https://github.com/yeonkyupark/yeonkyupark.github.io/new/main?filename=_posts/20
 
 ## 참고자료
 
-1. ![Github URL to create new file with specific name?](https://stackoverflow.com/questions/27778095/github-url-to-create-new-file-with-specific-name)
+1. [Github URL to create new file with specific name?](https://stackoverflow.com/questions/27778095/github-url-to-create-new-file-with-specific-name)
  
