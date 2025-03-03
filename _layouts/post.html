@@ -96,9 +96,10 @@ script_includes:
             {% else %}
               <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
             {% endif %}
-            {% if site.github.repo %}
             <!-- add "Edit this page" ]] -->
+            {% if site.github.repo %}
               <a href="{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}" target="_blank"><i class="fa-solid fa-pencil"></i></a>
+            {% endif %}
             <!-- add "Edit this page" ]] -->
           </em>
         </span>        
