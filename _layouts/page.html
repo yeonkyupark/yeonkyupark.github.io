@@ -16,16 +16,5 @@ layout: default
     </div>
   {% else %}
     {{ content }}
-  {% endif %}
-
-    <!-- edit this page [[ -->
-    {% if page.path %}
-      <p>
-        <a href="{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}" target="_blank">
-          ✏️ Edit this page 
-        </a>
-      </p>
-    {% endif %}
-    <!-- edit this page ]] -->
-  
+  {% endif %}  
 </article>
