@@ -187,6 +187,16 @@ script_includes:
       </div>
     {% endif %}
 
+    <!-- edit this page [[ -->
+    {% if page.path %}
+      <p>
+        <a href="{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}" target="_blank">
+          ✏️ Edit this page 
+        </a>
+      </p>
+    {% endif %}
+    <!-- edit this page ]] -->
+
     <div
       class="
         post-tail-bottom
