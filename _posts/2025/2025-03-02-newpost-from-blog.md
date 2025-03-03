@@ -1,5 +1,5 @@
 ---
-title: "블로그에서 Github에 새 글 등록"
+title: "블로그에서 Github에 새 글 등록하기"
 date: "2025-03-02" 
 categories: [hobby]
 tags: [github]
