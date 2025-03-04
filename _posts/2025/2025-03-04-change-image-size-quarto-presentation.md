@@ -17,7 +17,7 @@ description:
 
 Quarto Presentation에서는 기본값으로 이미지 크기가 확장(streched)된다. Presentation layout size보다 작으면 이미지를 확대해서 해상도가 낮아지는 단점이 있다. 원본 크기를 유지하기 위해서는 아래와 가이드를 참고한다.
 
-https://quarto.org/docs/presentations/revealjs/advanced.html#stretch
+- https://quarto.org/docs/presentations/revealjs/advanced.html#stretch
 
 ### YAML에 옵션 추가
 
@@ -50,4 +50,5 @@ format:
 ## 참고자료
 
 1. [How to resize image in Quarto revealjs presentation](https://github.com/quarto-dev/quarto-cli/discussions/5701)
-2. [Layout Helpers > Stretch](https://quarto.org/docs/presentations/revealjs/advanced.html#stretch)
+2. [Guide > Presentations > Revealjs > Advanced Reveal > Layout Helpers > Stretch](https://quarto.org/docs/presentations/revealjs/advanced.html#stretch)
+
