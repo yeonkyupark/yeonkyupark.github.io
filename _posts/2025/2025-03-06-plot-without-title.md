@@ -3,7 +3,7 @@ title: "제목 영역없이 그래프 그리기"
 date: "2025-03-06" 
 categories: [interest]
 tags: [r]
-image: /assets/images/logo.png
+image: /assets/images/logo_r.png
 toc: true
 pin: false
 math: true
