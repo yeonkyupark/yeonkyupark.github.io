@@ -25,7 +25,7 @@ Using callouts is an effective way to highlight content that your reader give sp
 :::
 ```
 
-![]("/assets/images/20250307_callout_height.png")
+![](/assets/images/20250307_callout_height.png)
 
 위 예제처럼 Callout 높이는 내용에 맞춰 설정된다. 따라서 컬럼으로 배치할 경우 내용에 따라 높이가 다르게 되어 가시성이 저하될 수 있다.
 
@@ -53,7 +53,7 @@ Using callouts is an effective way to highlight content that your reader give sp
 :::
 ::::
 ```
-![]("/assets/images/20250307_callout_height_01.png")
+![](/assets/images/20250307_callout_height_01.png)
 
 ## div style을 통해 같은 높이 설정
 다양한 방법이 있겠지만 단순, 직관적으로 div 태그 내 style 옵션으로 높이를 설정한다.
@@ -88,7 +88,7 @@ Using callouts is an effective way to highlight content that your reader give sp
 
 ```
 
-![]("/assets/images/20250307_callout_height_02.png")
+![](/assets/images/20250307_callout_height_02.png)
 
 ## 참고자료
 Guide > Authoring > Callout Blocks
