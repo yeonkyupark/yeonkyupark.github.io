@@ -38,6 +38,8 @@ dev.off()
 mar=c(5,4,4,2)+0.1 # c(bottom, left, top, right) 
 ```
 
+![](assets/images/plot_without_title.png)
+
 ## 참고자료
 
 1. [Plots without titles/labels in R](https://stackoverflow.com/questions/736541/plots-without-titles-labels-in-r)
