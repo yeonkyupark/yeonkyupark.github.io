@@ -91,5 +91,5 @@ Using callouts is an effective way to highlight content that your reader give sp
 ![](/assets/images/20250307_callout_height_02.png)
 
 ## 참고자료
-Guide > Authoring > Callout Blocks
-How do I create cards/callouts of the same height and positioned next to each other?
+1. ![Guide > Authoring > Callout Blocks](https://quarto.org/docs/authoring/callouts.html)
+1. ![How do I create cards/callouts of the same height and positioned next to each other?](https://github.com/quarto-dev/quarto-cli/discussions/9213)
