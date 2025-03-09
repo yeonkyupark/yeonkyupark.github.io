@@ -53,7 +53,6 @@ Using callouts is an effective way to highlight content that your reader give sp
 :::
 ::::
 ```
-
 ![]("/assets/images/20250307_callout_height_01.png")
 
 ## div style을 통해 같은 높이 설정
