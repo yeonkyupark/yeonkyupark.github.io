@@ -24,10 +24,11 @@ for(i in 1:100){
 }
 
 m <- mean(trial)
+s <- sd(trial)
 
 h <- hist(trial, main = NULL, xlab = NULL, ylab = NULL)
 xfit <- seq(min(trial), max(trial), length = length(trial))
-yfit <- dnorm(xfit, mean = mean(trial), sd = sd(trial))
+yfit <- dnorm(xfit, mean = m, sd = s)
 yfit <- yfit*diff(h$mids[1:2])*length(trial)
 lines(xfit, yfit, col="blue", lwd=2)
 abline(v = m, col = "red", lwd=2, lty=2)
