@@ -122,8 +122,8 @@ comments:
   giscus:
     repo: yeonkyupark/giscus # <gh-username>/<repo>
     repo_id: R_kgDOI8qjuw
-    category:
-    category_id:
+    category: Announcements
+    category_id: DIC_kwDOI8qju84CUkmo
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
