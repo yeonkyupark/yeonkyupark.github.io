@@ -87,7 +87,9 @@
 }
 
 /* 목차에서 제목 생략 */
-.toc a[href="#no-toc"] {
+.toc-link node-name--H2 a[href="#no-toc"] {
     display: none;
 }
+
+
 
