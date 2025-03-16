@@ -86,6 +86,7 @@
 );
 }
 
+/* 특정 제목 TOC에서 생략하기 */
 li.toc-list-item:has(> a[href="#no-toc"]) {
     display: none;
 }
