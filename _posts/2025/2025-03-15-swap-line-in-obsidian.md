@@ -8,7 +8,7 @@ toc: true
 pin: false
 math: true
 mermaid: true
-description: 옵시디언 obsidian 줄 이동 swip alt 화살표
+description: 옵시디언 obsidian 줄 이동 swap line alt 화살표
 ---
 
 ## 옵시디언에서 화살표로 해당 줄 위아래로 이동하기
