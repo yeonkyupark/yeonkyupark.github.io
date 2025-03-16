@@ -91,4 +91,10 @@ li.toc-list-item:has(> a[href="#no-toc"]) {
     display: none;
 }
 
+/* 이미지에 테두리 넣기 */
+.img-bordered {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
 
