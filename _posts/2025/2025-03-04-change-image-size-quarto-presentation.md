@@ -8,7 +8,7 @@ toc: true
 pin: false
 math: true
 mermaid: true
-description: 
+description: Quarto Presentation 이미지 크기는 확장이 기본 옵션이다. Presentation 크기보다 작은 경우 이미지가 확장되면서 화질이 저하된다. 이를 방지하기 위해 .nostretch 옵션을 사용한다.
 ---
 
 ## Quarto Presentation에서 이미지 크기 조절하기
