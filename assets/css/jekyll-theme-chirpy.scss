@@ -86,10 +86,8 @@
 );
 }
 
-/* 목차에서 제목 생략 */
-.toc-link node-name--H2 a[href="#no-toc"] {
+li.toc-list-item > a[href="#no-toc"] {
     display: none;
 }
-
 
 
