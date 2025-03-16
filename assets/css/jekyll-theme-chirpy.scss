@@ -86,7 +86,7 @@
 );
 }
 
-li.toc-list-item > a[href="#no-toc"] {
+li.toc-list-item:has(> a[href="#no-toc"]) {
     display: none;
 }
 
