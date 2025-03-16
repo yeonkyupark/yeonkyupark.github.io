@@ -85,3 +85,8 @@
     var(--prompt-danger-bg)
 );
 }
+
+/* 목차에서 제목 생략 */
+.toc a[href="#no-toc"] {
+    display: none;
+}
