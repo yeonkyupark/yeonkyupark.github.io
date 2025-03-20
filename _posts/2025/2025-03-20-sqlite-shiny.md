@@ -104,7 +104,8 @@ kdt_Server <- function(id, dataset) {
 
 ### 화면 출력
 
-![](/assets/images/2025-03-20-sqlite-shiny.png)
+![](/assets/images/2025-03-20-sqlite-shiny.png) 
+
 _[live demo](https://yeonkyupark.shinyapps.io/Grain-Data-Shiny-Demo/)_
 
 
@@ -114,4 +115,5 @@ _[live demo](https://yeonkyupark.shinyapps.io/Grain-Data-Shiny-Demo/)_
 3. [Using the pool package (advanced)](https://shiny.posit.co/r/articles/build/pool-advanced/)
 
 **각주**
+
 [^1]: https://www.durunubi.kr/koreatrail-introduction.do
