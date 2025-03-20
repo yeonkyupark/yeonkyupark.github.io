@@ -104,13 +104,14 @@ kdt_Server <- function(id, dataset) {
 
 ### 화면 출력
 
-![[live demo](https://yeonkyupark.shinyapps.io/Grain-Data-Shiny-Demo/)](/assets/images/2025-03-20-sqlite-shiny.png)
-
+![](/assets/images/2025-03-20-sqlite-shiny.png)
+_[live demo](https://yeonkyupark.shinyapps.io/Grain-Data-Shiny-Demo/)_
 
 
 ## 참고자료
-1. [# R shiny와 DB를 동기화 해보자(Sqlite)](https://unfinishedgod.netlify.app/2020/08/23/r-shiny%EC%99%80-db%EB%A5%BC-%EB%8F%99%EA%B8%B0%ED%99%94-%ED%95%B4%EB%B3%B4%EC%9E%90sqlite/)
+1. [R shiny와 DB를 동기화 해보자(Sqlite)](https://unfinishedgod.netlify.app/2020/08/23/r-shiny%EC%99%80-db%EB%A5%BC-%EB%8F%99%EA%B8%B0%ED%99%94-%ED%95%B4%EB%B3%B4%EC%9E%90sqlite/)
 2. [Using pool with dplyr](https://rstudio.github.io/pool/articles/pool-dplyr.html)
 3. [Using the pool package (advanced)](https://shiny.posit.co/r/articles/build/pool-advanced/)
 
+**각주**
 [^1]: https://www.durunubi.kr/koreatrail-introduction.do
