@@ -104,7 +104,9 @@ kdt_Server <- function(id, dataset) {
 
 ### 화면 출력
 
-![](/assets/images/2025-03-20-sqlite-shiny.png)
+![[live demo](https://yeonkyupark.shinyapps.io/Grain-Data-Shiny-Demo/)](/assets/images/2025-03-20-sqlite-shiny.png)
+
+
 
 ## 참고자료
 1. [# R shiny와 DB를 동기화 해보자(Sqlite)](https://unfinishedgod.netlify.app/2020/08/23/r-shiny%EC%99%80-db%EB%A5%BC-%EB%8F%99%EA%B8%B0%ED%99%94-%ED%95%B4%EB%B3%B4%EC%9E%90sqlite/)
