@@ -27,11 +27,23 @@ Group2|X
 Group2|Y
 Group2|Z
 
-`selectInput1` widget에서 `Group2`을 선택하면 `selectInput2`에서는 "X, Y, Z"만 출력되도록 한다.
+
+![](/assets/images/2025-3-27-reactive-widgets-in-shiny.png)
+
+이제 `selectInput1` widget에서 `Group2`을 선택하면 `selectInput2`에서는 "X, Y, Z"만 출력되도록 한다.
 
 ## 구현
 
 ### Layout 구성
+
+아래와 같이 간단하게 `secectInput` widget을 위아래로 배치한다.
+
+```r
+selectInput("selectInput1", "Select Group", 
+            multiple = F, choices = c("Group1", "Group2")),
+selectInput("selectInput2", "Select Item",
+            multiple = F, choices = c("A", "B", "C", "D", "X", "Y", "Z")))
+```
 
 ### reactive 등록
 
