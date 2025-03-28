@@ -22,7 +22,7 @@ Group|Item
 Group1|A
 Group1|B
 Group1|C
-Group2|D
+Group1|D
 Group2|X
 Group2|Y
 Group2|Z
@@ -47,12 +47,39 @@ selectInput("selectInput2", "Select Item",
 
 ### reactive 등록
 
-`selectInput1` 변경을 인식하기 위해 reactive로 등록한다. 선택값에 따라 출력할 목록을 지정해 준다.
+`selectInput1` 변경시 `selectInput2` 값을 설정하기 위해 reactive value를 등록한다. `get_items()`은 `selectInput1` 값을 읽어 적절한 `selectInput2`  값을 설정한다.
+
+```r
+  get_items <- reactive({
+    req(input$selectInput1)
+    if(input$selectInput1 == "Group1") {
+      c("A", "B", "C", "D")
+    } else if(input$selectInput1 == "Group2") {
+      c("X", "Y", "Z")
+    } else {
+      c("A", "B", "C", "D", "X", "Y", "Z")
+    }
+  })
+
+```
 
 ### 변경사항 반영
-`observe()` 함수를 통해 변경사항이 발생하면 `updateSelectInput()` 함수로 변경된 내용을 반영한다.
+`observeEvent()` 함수를 통해 변경사항이 발생하면 `updateSelectInput()` 함수로 변경된 내용을 반영한다. `selectInput1`을 지켜보고 있다가 변경이 발생하면 `selectInput2` 값을 갱신한다. 이때 위에서 작성한 `get_items()`를 통해 적절한 값을 출력한다.
+
+```r
+  observeEvent(input$selectInput1, {
+    updateSelectInput(session, inputId = "selectInput2", 
+                      choices = get_items()
+    )
+  })
+```
+
+### 결과 확인
+
+![](/assets/images/2025-3-27-reactive-widgets-in-shiny-1.png)
 
 ## 참고사항
 
-
+1. [Observe Function in R Shiny - How to Implement a Reactive Observer](https://www.appsilon.com/post/observe-function-r-shiny)
+2. [R Shiny - What is the problem with my observe function ({UpdateSelectInput})?](https://stackoverflow.com/questions/62293044/r-shiny-what-is-the-problem-with-my-observe-function-updateselectinput)
 
