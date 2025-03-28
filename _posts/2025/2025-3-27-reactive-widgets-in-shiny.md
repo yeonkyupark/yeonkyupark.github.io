@@ -78,7 +78,9 @@ selectInput("selectInput2", "Select Item",
 
 ![](/assets/images/2025-3-27-reactive-widgets-in-shiny-1.png)
 
-## 참고사항
+- [live demo](https://yeonkyupark.shinyapps.io/Grain-Data-Shiny-Demo/)
+
+## 참고자료
 
 1. [Observe Function in R Shiny - How to Implement a Reactive Observer](https://www.appsilon.com/post/observe-function-r-shiny)
 2. [R Shiny - What is the problem with my observe function ({UpdateSelectInput})?](https://stackoverflow.com/questions/62293044/r-shiny-what-is-the-problem-with-my-observe-function-updateselectinput)
