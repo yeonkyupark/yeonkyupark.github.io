@@ -103,7 +103,7 @@ description: 스프레드시트 데이터 입력 원칙에 대해 알아 본다.
   <tbody>
     <tr>
       <td>4/01</td>
-      <td style="border-bottom: none;">맑음</td>
+      <td style="border-bottom: none !important;">맑음</td>
       <td>17</td>
     </tr>
     <tr>
