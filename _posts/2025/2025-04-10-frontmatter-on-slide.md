@@ -1,8 +1,8 @@
 ---
 title: Quarto Presentation Frontmatter를 슬라이드에 출력하기
 date: 2025-04-10 
-categories: [interest, hobby]
-tags: [r, python]
+categories: [hobby]
+tags: [r, quarto]
 image: /assets/images/logo_quarto.png
 toc: true
 pin: false
@@ -29,7 +29,7 @@ format: revealjs
 출력할 위치에 아래와 같이 입력한다.
 
 ```markdown
-Version: {{< meta version >}}
+Version: {% raw %}{{< meta version >}}{% endraw %}
 ```
 
 작성자, 버전 등 슬라이드 상단이나 하단에 정보 표기할 때 유용하게 활용 가능하다.
