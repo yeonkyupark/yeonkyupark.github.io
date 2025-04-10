@@ -9,6 +9,7 @@ pin: false
 math: true
 mermaid: true
 description: Quarto Presentation Frontmatter를 슬라이드에 출력하는 방법을 알아본다.
+version: "1.0.0"
 ---
 
 ## Quarto Presentation Frontmatter를 슬라이드에 출력하기
@@ -27,7 +28,7 @@ format: revealjs
 
 출력할 위치에 아래와 같이 입력한다.
 
-```txt
+```markdown
 Version: {{< meta version >}}
 ```
 
