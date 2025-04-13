@@ -40,13 +40,6 @@ Version: {{< meta version >}}
 </code></pre>
 ```
 
-### 해당 플랫폼에서 지원하는 방법 사용
-
-Chirpy theme 경우, `{% highlight %}` 태그를 지원한다.
-
-{% highlight markdown %}
-Version: {{< meta version >}}
-{% endhighlight %}
 
 상황에 맞춰 선호하는 방법을 적용한다.
 
