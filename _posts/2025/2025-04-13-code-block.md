@@ -28,22 +28,21 @@ Version: {{< meta version >}}
 ### 중괄호를 코드로 표기
 
 
-또는 아래와 같이 HTML entity를 이용한 표현도 가능
+또는 아래와 같이 HTML entity를 이용한 표현도 가능하다(`&#123; → {`, `&#125; → }`).
 
 > Version: &#123;&#123;< meta version >&#125;&#125;
 
 
 ### `<pre><code>` 태그 사용
 
-<strike>
 ```html
 <pre><code>
   Version: {{< meta version >}}
 </code></pre>
 ```
-</strike>
 
-이건 렌더링에 따라 될, 또는 안될 때도 있다.
+
+이건 렌더링에 따라 될, 또는 안될 수도 있다.
 
 상황에 맞춰 선호하는 방법을 적용한다.
 
