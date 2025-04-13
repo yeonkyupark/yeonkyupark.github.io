@@ -34,10 +34,12 @@ Version: {{< meta version >}}
 
 
 ### `<pre><code>` 태그 사용
-
-> <pre>
+<strike>
+<pre><code>
   Version: {{< meta version >}}
-  </pre>
+</code></pre>
+</strike>
+
 
 상황에 맞춰 선호하는 방법을 적용한다.
 
