@@ -7,7 +7,7 @@ toc: true
 order: 4
 ---
 
-![drawed by Codal](/assets/img/avatar_me.png){: width="320" }
+![](/assets/img/avatar_me.png){: width="320" }
 
 # [Yeonkyu PARK](https://github.com/yeonkyupark/)
 
