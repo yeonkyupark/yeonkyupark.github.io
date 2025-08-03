@@ -98,3 +98,8 @@ li.toc-list-item:has(> a[href="#no-toc"]) {
     padding: 4px;
 }
 
+.profile-image {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
