@@ -7,6 +7,8 @@ toc: true
 order: 4
 ---
 
+<img src="img/avatar_me.png" class="profile-image" alt="프로필 이미지">
+
 ![](/assets/img/avatar_me.png){: width="320" }
 
 # [Yeonkyu PARK](https://github.com/yeonkyupark/)
