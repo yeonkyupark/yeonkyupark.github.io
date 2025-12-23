@@ -45,8 +45,9 @@ permalink: /feed.xml
     {% endfor %}
   {% endif %}
 
+  {%- comment -%}
   <summary>{% include post-description.html max_length=400 %}</summary>
-
+  {%- endcomment -%}
   </entry>
 {% endfor %}
 </feed>
