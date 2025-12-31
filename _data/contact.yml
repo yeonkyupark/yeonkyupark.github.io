@@ -4,8 +4,9 @@
 # icon: "fa-brands fa-x-twitter"
 
 - type: github
-  icon: "fa-github"
   url: 'https://github.com/yeonkyupark'
+  icon: "fab fa-github"
+  label: "GitHub"
 
 - type: instagram
   icon: 'fa-brands fa-square-instagram'   # icons powered by <https://fontawesome.com/>
