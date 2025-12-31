@@ -126,3 +126,54 @@ systemctl --user start obsidian-bisync.timer
 - 폴더 및 파일명이 정확한가? 공백이 있는 경우 쌍따옴표(“)를 이용하여 묶어 준다.
 - 옵션 설정이 제대로 되어 있는가? `.service` 파일에서는 `~` 경로를 인식하지 않으므로 절대 경로 또는 `%h`을 이용하여 설정한다.
 - rclone 접근 승인은 완료되었는가? 충돌이나 알 수 없는 경우로 접근 권한이 사라진다면 기존 설정을 삭제한 후 새로 만드는 것을 추천한다.
+
+**추가**
+
+아래와 같이 `resync` 요청이 있는 경우 다음 순서에 따라 작업을 진행한다.
+
+```
+ERROR : Bisync critical error: cannot find prior Path1 or Path2 listings
+ERROR : Bisync aborted. Must run --resync to recover.
+```
+
+위 내용은 비정상 종료에 의해 발생하며 터미널에서 `--resync` 동작을 통해 해결한다.  
+
+우선 타이머와 서비스를 종료한다.
+
+```
+systemctl --user stop obsidian-bisync.timer
+systemctl --user stop obsidian-bisync.service
+```
+
+`bisync` 관련 파일을 정리한다.
+
+```
+rm -rf ~/.cache/rclone/bisync*
+rm -rf ~/.config/rclone/bisync*
+```
+
+터미널에서 `--resync` 동작을 수행한다.
+
+```
+/usr/bin/rclone bisync ~/PC경로 "gdrive:구글드라이브경로" --resync
+```
+
+서비스와 타이머를 실행 시킨다.
+
+```
+systemctl --user start obsidian-bisync.service
+```
+
+```
+systemctl --user enable --now obsidian-bisync.timer
+```
+
+마지막으로 상태를 확인한다.
+
+```
+systemctl --user status obsidian-bisync.service
+systemctl --user status obsidian-bisync.timer
+```
+
+
+
