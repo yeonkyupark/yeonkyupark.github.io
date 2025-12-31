@@ -1,11 +1,11 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-  url: 'https://github.com/yeonkyupark'
-
 # - type: twitter
 # icon: "fa-brands fa-x-twitter"
+
+- type: github
+  icon: "fa-github"
+  url: 'https://github.com/yeonkyupark'
 
 - type: instagram
   icon: 'fa-brands fa-square-instagram'   # icons powered by <https://fontawesome.com/>
