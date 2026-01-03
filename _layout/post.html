@@ -125,6 +125,12 @@ script_includes:
     {{ content }}
   </div>
 
+<div class="edit-page-link mt-5 mb-3">
+<a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" target="_blank" rel="noopener">
+  <i class="fas fa-pen fa-sm"></i> Edit this page
+</a>
+</div>
+  
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     {% if page.categories.size > 0 %}
@@ -150,13 +156,7 @@ script_includes:
           </a>
         {% endfor %}
       </div>
-    {% endif %}
-    
-<div class="edit-page-link mt-5 mb-3">
-  <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" target="_blank" rel="noopener">
-    <i class="fas fa-pen fa-sm"></i> Edit this page
-  </a>
-</div>
+    {% endif %}  
     
     <div
       class="
