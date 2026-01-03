@@ -71,7 +71,7 @@ github:
 <!-- Edit this page 추가 ]] -->
 
 ```
-{% end raw %}
+{% endraw %}
 
 ![](/assets/images/Pasted%20image%2020260104070701.png)
 
