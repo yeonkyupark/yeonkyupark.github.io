@@ -125,11 +125,21 @@ script_includes:
     {{ content }}
   </div>
 
+
+
+  
 <div class="edit-page-link mt-5 mb-3">
 <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" target="_blank" rel="noopener">
   <i class="fas fa-pen fa-sm"></i> Edit this page
 </a>
 </div>
+
+<p>Debug - Repo: {{ site.github.repository }}</p>
+<p>Debug - Path: {{ page.path }}</p>
+
+<a href="https://github.com/yeonkyupark/yeonkyupark.github.io/edit/main/{{ page.path }}">
+  Edit this page
+</a>
   
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
