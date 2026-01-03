@@ -11,7 +11,7 @@ mermaid: true
 description: 
 ---
 
-## [[옵시디언 마크다운에 Excalidraw 이미지 삽입하기]]
+## 옵시디언 마크다운에 Excalidraw 이미지 삽입하기
 
 옵시디언 장점 중 하나는 Excalidraw 플러그인을 사용할 수 있다. Excalidraw에서 그린 그림이나 도형을 이미지 형태나 링크로 문서에 삽입이 가능하다.
 
@@ -20,7 +20,6 @@ description:
 먼저 Excalidraw에서 그림이나 도형을 이용하여 원하는 내용을 작성한다. 복사하고 싶은 부분을 선택한 후 오른쪽 마우스 클릭을 한다. 팝업메뉴에서 이미지 복사 관련 메뉴를 선택한다. 복사된 이미지를 마크다운 문서에 삽입한다.
 02
 ![](/assets/images/20260103_image_01.png)
-    /assets/images
 
 
 ### 링크 형태로 문서에 삽입하기
