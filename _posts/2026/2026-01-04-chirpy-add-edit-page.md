@@ -53,6 +53,7 @@ github:
 
 `lastmod date` 다음에 버튼을 추가한다.
 
+{% raw %}
 ```html
       <!-- lastmod date -->
       {% if page.last_modified_at and page.last_modified_at != page.date %}
@@ -70,6 +71,7 @@ github:
 <!-- Edit this page 추가 ]] -->
 
 ```
+{% end raw %}
 
 ![](/assets/images/Pasted%20image%2020260104070701.png)
 
