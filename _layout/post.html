@@ -151,7 +151,13 @@ script_includes:
         {% endfor %}
       </div>
     {% endif %}
-
+    
+<div class="edit-page-link mt-5 mb-3">
+  <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" target="_blank" rel="noopener">
+    <i class="fas fa-pen fa-sm"></i> Edit this page
+  </a>
+</div>
+    
     <div
       class="
         post-tail-bottom
@@ -172,15 +178,7 @@ script_includes:
 
       {% include post-sharing.html lang=lang %}
     </div>
-    <!-- .post-tail-bottom -->
-
-<div class="edit-page-link mt-5 mb-3">
-  <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" target="_blank" rel="noopener">
-    <i class="fas fa-pen fa-sm"></i> Edit this page
-  </a>
-</div>
-
-    
+    <!-- .post-tail-bottom -->    
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
