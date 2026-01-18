@@ -150,6 +150,9 @@ print(f'a+b={a+b}')
 ```
 ````
 
+![](/assets/images/Pasted%20image%2020260118151612.png)
+
+
 - title: 코드블록 상단에 제목을 명시
 - ref: 참고할 문서를 연결, 예) `ref: [[참고할 문서]]`
 
