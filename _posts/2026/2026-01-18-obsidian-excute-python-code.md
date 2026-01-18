@@ -2,13 +2,13 @@
 title: 옵시디언에서 파이썬 코드 실행하기
 date: 2026.01.18.
 categories: [hobby]
-tags: [obsidian]
+tags: [obsidian, 플러그인]
 image: /assets/images/logo_obsidian.png
 toc: true
 pin: false
 math: true
 mermaid: true
-description: 
+description: 옵시디언 환경에서 프로그래밍 실습을 위한 플러그인을 소개한다.
 ---
 
 본 글에서는 옵시디언 환경에서 프로그래밍 실습을 위한 플러그인을 소개한다.
@@ -143,7 +143,7 @@ print(f'a+b={a+b}')
 
 `title`, `icon` 등을 통해 코드블록 가독성을 향상할 수 있다.
 
-```python title='파이썬 예제코드'
+```python title="파이썬 예제코드"
 a = 1
 b = 3
 print(f'a+b={a+b}')
