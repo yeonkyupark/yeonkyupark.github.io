@@ -117,7 +117,7 @@ print(f'a+b={a+b}')
 ```
 ````
 
-![](Pasted%20image%2020260118140644.png)
+![](/assets/images/Pasted%20image%2020260118140644.png)
 
 하이라이트가 필요한 코드 범위를 `hl:` 기호 뒤에 명시한다. 
 
