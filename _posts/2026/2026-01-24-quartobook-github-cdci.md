@@ -3,7 +3,7 @@ title: Quarto Book을 GitHub를 통해 자동 빌드 및 배포하기
 date: 2026-01-24
 categories: [hobby]
 tags: [rstudio, quarto, github]
-image: /assets/images/logo_rstudio.png
+image: /assets/images/logo_quarto.png
 toc: true
 pin: false
 math: true
