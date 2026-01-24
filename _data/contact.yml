@@ -20,7 +20,7 @@
 
 - type: dataanlytics
   icon: 'fa-solid fa-table'   # icons powered by <https://fontawesome.com/>
-  url:  'https://yeonkyupark.github.io/dawithpython/'  
+  url:  'https://yeonkyupark.github.io/python4da/'  
 
 - type: email
   icon: "fas fa-envelope"
