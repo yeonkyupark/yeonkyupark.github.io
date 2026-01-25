@@ -30,7 +30,7 @@ RStudio에서 Quarto 문서 작성 시 파이썬 코드가 실행되도록 관�
 
 RStudio나 Quarto로 프로젝트를 생성한다. 예제는 Quarto Book 프로젝트로 설명한다.
 
-```
+```sh
 mkdir python4da
 cd python4da
 quarto create-project .
