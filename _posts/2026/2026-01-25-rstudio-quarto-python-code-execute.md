@@ -40,7 +40,7 @@ quarto create-project .
 
 `uv` 설치 전이면 아래 명령을 통해 설치한다.
 
-```
+```sh
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 ```
@@ -49,27 +49,27 @@ source $HOME/.local/bin/env
 
 가상환경을 생성한다.
 
-```
+```sh
 uv venv
 ```
 
 만약 이전에 가상환경이 생성되어 있다면 아래와 같이 모두 삭제 후 새로 설치한다. 이는 불필요한 환경 충돌을 방지한다.
 
-```
+```sh
 rm -rf .venv
 ```
 
 
 가상환경이 생성되었다면 가상환경을 활성화하고 파이썬 경로를 확인한다.
 
-```
+```sh
 source .venv/bin/activate
 which python
 ```
 
 정상적으로 가상환경이 생성되었다면 파이썬 경로는 아래와 같이 출력된다.
 
-```
+```sh
 .../python4da/.venv/bin/python
 ```
 
@@ -77,13 +77,13 @@ which python
 
 생성된 가상환경에서 필요한 패키지를 설치한다.
 
-```
+```sh
 uv pip install pandas palmerpenguins setuptools
 ```
 
 패키지가 정상적으로 설치되었는지 확인한다. 다음 예제는 `palmerpenguins` 패키지를 설치하고 제공하는 데이터셋 일부를 출력하는 코드이다.
 
-```
+```sh
 python -c "from palmerpenguins import load_penguins; print(load_penguins().head())"
 ```
 
@@ -91,7 +91,7 @@ python -c "from palmerpenguins import load_penguins; print(load_penguins().head(
 
 RStudio Quarto에서 파이썬 코드를 실행하기 위해서는 `reticulate`를 사용한다. `reticulate`는 실행할 파이썬을 선택하는데 가상환경이 아닌 다른 경로에 있는 파이썬을 선택할 수도 있다. 이를 가상환경 경로로 강제 지정한다.
 
-```
+```r
 reticulate::use_python(
   "/home/yk/Projects/python4da/.venv/bin/python",
   required = TRUE
@@ -100,7 +100,7 @@ reticulate::use_python(
 
 설정한 가상환경에 위치한 파이썬이 정상 설정되었는지 확인한다.
 
-```
+```r
 reticulate::py_config()
 ```
 
@@ -110,14 +110,7 @@ reticulate::py_config()
 
 `_quarto.yml` 파일에 실행할 파이썬 코드를 아래와 같이 지정한다.
 
-```
-project:
-  type: book
-
-execute:
-  python: .venv/bin/python
-```
-```
+```yaml
 project:
   type: book
 
@@ -130,7 +123,7 @@ execute:
 Quarto 문서에서 파이썬 경로가 가상환경으로 설정되어 있는지 점검한다.
 
 
-```
+```python
 import sys
 sys.executable
 ```
@@ -139,7 +132,7 @@ sys.executable
 
 실제 코드가 정상 실행되는지 확인하다.
 
-```
+```python
 from palmerpenguins import load_penguins
 
 df = load_penguins()
@@ -150,7 +143,7 @@ df.head()
 
 아래는 workflow 파일이다. 
 
-```
+```yaml
 name: Render & Deploy Quarto Book
 
 on:
