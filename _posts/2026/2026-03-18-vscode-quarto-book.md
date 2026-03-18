@@ -134,29 +134,7 @@ df.head()
 
 ---
 
-# 5. GitHub 연결
-
-## 5.1 초기화
-
-```bash
-git init
-git add .
-git commit -m "init project"
-```
-
----
-
-## 5.2 원격 연결
-
-```bash
-git remote add origin https://github.com/사용자명/eda-for-python.git
-git branch -M main
-git push -u origin main
-```
-
----
-
-# 6. .gitignore 설정 (중요)
+# 5. .gitignore 설정 (중요)
 
 ```gitignore
 .venv/
@@ -177,7 +155,44 @@ uv.lock
 
 ---
 
-# 7. GitHub Actions 구성
+# 6. GitHub 연결
+
+## 6.1 초기화
+
+```bash
+git init
+git add .
+git commit -m "init project"
+```
+
+---
+
+## 6.2 원격 연결
+
+```bash
+git remote add origin https://github.com/사용자명/eda-for-python.git
+git branch -M main
+git push -u origin main
+```
+
+---
+
+# 7. GitHub Pages 설정
+
+* Settings → Pages
+* Source → GitHub Actions
+
+---
+
+# 8. 최초 배포
+
+```bash
+uv run quarto publish gh-pages
+```
+
+---
+
+# 9. GitHub Actions 구성
 
 ## .github/workflows/publish.yml
 
@@ -217,21 +232,6 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-```
-
----
-
-# 8. GitHub Pages 설정
-
-* Settings → Pages
-* Source → GitHub Actions
-
----
-
-# 9. 최초 배포
-
-```bash
-uv run quarto publish gh-pages
 ```
 
 ---
