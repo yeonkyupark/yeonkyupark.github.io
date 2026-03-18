@@ -209,9 +209,17 @@ name: Publish Quarto Book (uv)
 on:
   push:
     branches: [main]
+  workflow_dispatch: # 수동 실행 버튼 활성화
 
+# 404 해결을 위한 핵심: 배포 권한 설정
 permissions:
-  contents: write
+  contents: read
+  pages: write      # Pages 배포 권한
+  id-token: write   # 인증 토큰 권한
+
+# Node.js 24 경고 해결을 위한 환경 변수
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-deploy:
@@ -235,10 +243,16 @@ jobs:
       - name: Render
         run: uv run quarto render
 
-      - name: Publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      # [중요] 빌드된 폴더(_book)를 배포용 Artifact로 업로드
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target: gh-pages
+          path: _book
+
+      # [중요] GitHub Pages 배포 워크플로우 트리거
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 ```
 
 ---
