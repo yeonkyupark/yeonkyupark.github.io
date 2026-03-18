@@ -27,9 +27,9 @@ Visual Studio Code, Quarto, GitHub, uv를 활용하여
 
 ---
 
-# 1. 개발 환경 구축
+## 1. 개발 환경 구축
 
-## 1.1 필수 설치
+### 1.1 필수 설치
 
 * Python
 * VSCode
@@ -43,7 +43,7 @@ Visual Studio Code, Quarto, GitHub, uv를 활용하여
 
 ---
 
-## 1.2 uv 설치
+### 1.2 uv 설치
 
 ```bash
 pip install uv
@@ -51,7 +51,7 @@ pip install uv
 
 ---
 
-## 1.3 Quarto 설치 확인
+### 1.3 Quarto 설치 확인
 
 ```bash
 quarto check
@@ -59,7 +59,7 @@ quarto check
 
 ---
 
-# 2. Quarto 프로젝트 생성
+## 2. Quarto 프로젝트 생성
 
 ```bash
 quarto create project book eda-for-python
@@ -69,9 +69,9 @@ code .
 
 ---
 
-# 3. uv 환경 구성
+## 3. uv 환경 구성
 
-## 3.1 초기화
+### 3.1 초기화
 
 ```bash
 uv init
@@ -79,7 +79,7 @@ uv init
 
 ---
 
-## 3.2 패키지 설치
+### 3.2 패키지 설치
 
 ```bash
 uv add numpy pandas matplotlib seaborn jupyter ipykernel
@@ -87,7 +87,7 @@ uv add numpy pandas matplotlib seaborn jupyter ipykernel
 
 ---
 
-## 3.3 실행
+### 3.3 실행
 
 ```bash
 uv run quarto preview
@@ -95,7 +95,7 @@ uv run quarto preview
 
 ---
 
-# 4. 문서 작성
+## 4. 문서 작성
 
 *_quarto.yml*:
 
@@ -134,11 +134,11 @@ df.head()
 
 ---
 
-# 5. gitignore 설정 (중요)
+## 5. gitignore 설정 (중요)
 
 *.gitignore*: 
 
-```gitignore
+```
 .venv/
 .quarto/
 _site/
@@ -157,9 +157,9 @@ uv.lock
 
 ---
 
-# 6. GitHub 연결
+## 6. GitHub 연결
 
-## 6.1 초기화
+### 6.1 초기화
 
 ```bash
 git init
@@ -169,7 +169,7 @@ git commit -m "init project"
 
 ---
 
-## 6.2 원격 연결
+### 6.2 원격 연결
 
 ```bash
 git remote add origin https://github.com/사용자명/eda-for-python.git
@@ -179,14 +179,14 @@ git push -u origin main
 
 ---
 
-# 7. GitHub Pages 설정
+## 7. GitHub Pages 설정
 
 * Settings → Pages
 * Source → GitHub Actions
 
 ---
 
-# 8. 최초 배포
+## 8. 최초 배포
 
 ```bash
 uv run quarto publish gh-pages
@@ -194,7 +194,7 @@ uv run quarto publish gh-pages
 
 ---
 
-# 9. GitHub Actions 구성
+## 9. GitHub Actions 구성
 
 *.github/workflows/publish.yml*: 
 
@@ -238,7 +238,7 @@ jobs:
 
 ---
 
-# 10. CI/CD 동작 확인
+## 10. CI/CD 동작 확인
 
 ```bash
 git add .
@@ -260,7 +260,7 @@ https://사용자명.github.io/eda-for-python/
 
 ---
 
-# 11. 핵심 실행 구조
+## 11. 핵심 실행 구조
 
 ```text
 uv 환경
@@ -274,9 +274,9 @@ gh-pages 배포
 
 ---
 
-# 12. 주요 에러 및 해결
+## 12. 주요 에러 및 해결
 
-## 12.1 nbformat 없음 에러
+### 12.1 nbformat 없음 에러
 
 ```text
 ModuleNotFoundError: No module named 'nbformat'
@@ -300,7 +300,7 @@ uv run python -m ipykernel install --user --name python3
 
 ---
 
-## 12.2 uv.lock 파싱 에러
+### 12.2 uv.lock 파싱 에러
 
 ```text
 extra `=`, expected nothing
@@ -325,7 +325,7 @@ uv pip compile
 
 ---
 
-## 12.3 권한 에러 (403)
+### 12.3 권한 에러 (403)
 
 ```text
 Permission denied to github-actions[bot]
@@ -344,7 +344,7 @@ permissions:
 
 ---
 
-## 12.4 gh-pages 브랜치 없음
+### 12.4 gh-pages 브랜치 없음
 
 ```text
 does not have a branch named gh-pages
@@ -358,7 +358,7 @@ uv run quarto publish gh-pages
 
 ---
 
-## 12.5 404 Not Found
+### 12.5 404 Not Found
 
 원인:
 
@@ -375,7 +375,7 @@ https://username.github.io/repo/
 
 ---
 
-## 12.6 PowerShell activate 오류
+### 12.6 PowerShell activate 오류
 
 ```text
 PSSecurityException
@@ -389,7 +389,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
-# 13. uv 사용 규칙
+## 13. uv 사용 규칙
 
 사용:
 
@@ -408,7 +408,7 @@ uv pip sync uv.lock
 
 ---
 
-# 14. 프로젝트 구조
+## 14. 프로젝트 구조
 
 ```text
 eda-for-python/
