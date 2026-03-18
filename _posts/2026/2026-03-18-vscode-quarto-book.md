@@ -11,7 +11,7 @@ mermaid: true
 description: 
 ---
 
-다음은 **VSCode + Quarto + uv + GitHub Actions 기반 Python 기술 문서 자동 배포 구축 전체 가이드 **이다.
+다음은 **VSCode + Quarto + uv + GitHub Actions 기반 Python 기술 문서 자동 배포 구축** 설명이다.
 
 ---
 
@@ -115,6 +115,11 @@ format:
     theme:
       - cosmo
       - brand
+
+execute:
+  freeze: auto
+
+jupyter: python3
 ```
 
 ---
