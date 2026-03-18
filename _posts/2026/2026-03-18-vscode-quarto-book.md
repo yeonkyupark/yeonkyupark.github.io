@@ -97,7 +97,7 @@ uv run quarto preview
 
 # 4. 문서 작성
 
-## _quarto.yml
+*_quarto.yml*:
 
 ```yaml
 project:
@@ -119,7 +119,7 @@ format:
 
 ---
 
-## index.qmd
+*index.qmd*: 
 
 ````markdown
 # 들어가기 {.unnumbered}
@@ -134,7 +134,9 @@ df.head()
 
 ---
 
-# 5. .gitignore 설정 (중요)
+# 5. gitignore 설정 (중요)
+
+*.gitignore*: 
 
 ```gitignore
 .venv/
@@ -194,7 +196,7 @@ uv run quarto publish gh-pages
 
 # 9. GitHub Actions 구성
 
-## .github/workflows/publish.yml
+*.github/workflows/publish.yml*: 
 
 ```yaml
 name: Publish Quarto Book (uv)
