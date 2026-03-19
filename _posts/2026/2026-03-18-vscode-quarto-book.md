@@ -1,5 +1,5 @@
 ---
-title: VSCode와 Quarto를 이용한 Web 제작
+title: VSCode와 Quarto를 이용한 기술 문서 제작
 date: 2026-03-18
 categories: [hobby]
 tags: [quarto]
