@@ -21,7 +21,7 @@ order: 4
 - Data wrangling with [Python](https://yeonkyupark.github.io/tags/python/) and [R](https://yeonkyupark.github.io/tags/r/)
 - Machine/Deep Learing with Structured data
 - Smart Factory & Digital Twin for Manufacturing
-- [생산운영과 공장관리](https://yeonkyupark.github.io/pepc3e/), [공장관리기술사, 2026](https://www.instagram.com/p/Dck5OTBIQ3z/)
+- [생산운영과 공장관리](https://yeonkyupark.github.io/pepc3e/), [공장관리기술사(2026)](https://www.instagram.com/p/Dck5OTBIQ3z/)
 
 ## <u>Resource<u/>
 
