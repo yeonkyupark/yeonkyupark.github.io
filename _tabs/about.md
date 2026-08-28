@@ -16,14 +16,14 @@ order: 4
 
 실업에서 습득한 경험이나 노하우, 필요 기술을 낟알 줍 듯 하나씩 담고 있습니다. 
 
-## <u>Interests</u>
+## <u>Professional</u>
 
 - Data wrangling with [Python](https://yeonkyupark.github.io/tags/python/) and [R](https://yeonkyupark.github.io/tags/r/)
 - Machine/Deep Learing with Structured data
 - Smart Factory & Digital Twin for Manufacturing
-- [Professional Engineer Plant Control](https://yeonkyupark.github.io/pepc2e/)
+- [생산운영과 공장관리](https://yeonkyupark.github.io/pepc3e/), [공장관리기술사, 2026](https://www.instagram.com/p/Dck5OTBIQ3z/)
 
-## <u>Hobbies<u/>
+## <u>Resource<u/>
 
 - [Obsidian](https://yeonkyupark.github.io/tags/obsidian/)
 - [Rstudio](https://yeonkyupark.github.io/tags/rstudio/)
@@ -34,6 +34,10 @@ order: 4
 
 ## <u>Personal<u/>
 
-- Swimming **1500M** [28'58"](https://www.instagram.com/p/C_Wr-KrSbOr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
-- Walking **10만보 걷기** [2020](https://www.instagram.com/p/B8BkqZOg4sQ/?igsh=MXAwYmVrbXlnOGRqbQ==), **제주올레길** [2023](https://www.instagram.com/p/CtQNsuayuh5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), **해파랑길** [(33/50)](https://www.instagram.com/p/DBDPBKaBkZK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 - Bicyling **국토완주 그랜드슬램** [2022](https://www.instagram.com/p/CRNnpMbBVvo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- Swimming **1500M** [28'58"](https://www.instagram.com/p/C_Wr-KrSbOr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- Walking
+    - **10만보 걷기** [2020](https://www.instagram.com/p/B8BkqZOg4sQ/?igsh=MXAwYmVrbXlnOGRqbQ==)
+    - **제주올레길** [2023](https://www.instagram.com/p/CtQNsuayuh5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+    - **해파랑길** [2025](https://www.instagram.com/p/DQvvRnygdfs/)
+    - **남파랑길** [14/90](https://www.instagram.com/p/Dclcx4PIA8-/)
