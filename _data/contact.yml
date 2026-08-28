@@ -12,7 +12,7 @@
 
 - type: pepc
   icon: 'fa-solid fa-industry'   # icons powered by <https://fontawesome.com/>
-  url:  'https://yeonkyupark.github.io/pepc2e/'
+  url:  'https://yeonkyupark.github.io/pepc3e/'
 
 - type: python
   icon: 'fa-brands fa-python'   # icons powered by <https://fontawesome.com/>
@@ -21,6 +21,10 @@
 - type: dataanlytics
   icon: 'fa-solid fa-table'   # icons powered by <https://fontawesome.com/>
   url:  'https://yeonkyupark.github.io/python4da/'  
+
+- type: namparang
+  icon: 'fa-solid fa-route'   # icons powered by <https://fontawesome.com/>
+  url:  'https://yeonkyupark.github.io/KDT-Namparang/'  
 
 - type: email
   icon: "fas fa-envelope"
