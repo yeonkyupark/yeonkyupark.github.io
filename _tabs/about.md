@@ -37,7 +37,7 @@ order: 4
 - Bicyling **국토완주 그랜드슬램** [2022](https://www.instagram.com/p/CRNnpMbBVvo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 - Swimming **1500M** [28'58"](https://www.instagram.com/p/C_Wr-KrSbOr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 - Walking
-    - **10만보 걷기** [2020](https://www.instagram.com/p/B8BkqZOg4sQ/?igsh=MXAwYmVrbXlnOGRqbQ==)
-    - **제주올레길** [2023](https://www.instagram.com/p/CtQNsuayuh5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
-    - **해파랑길** [2025](https://www.instagram.com/p/DQvvRnygdfs/)
-    - **남파랑길** [14/90](https://www.instagram.com/p/Dclcx4PIA8-/)
+    - **10만보 걷기** [완보(2020)](https://www.instagram.com/p/B8BkqZOg4sQ/?igsh=MXAwYmVrbXlnOGRqbQ==)
+    - **제주올레길** [완주(2023)](https://www.instagram.com/p/CtQNsuayuh5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+    - **해파랑길** [완주(2025)](https://www.instagram.com/p/DQvvRnygdfs/)
+    - **남파랑길** [진행 중(14/90)](https://www.instagram.com/p/Dclcx4PIA8-/), [기록](https://yeonkyupark.github.io/KDT-Namparang/)
