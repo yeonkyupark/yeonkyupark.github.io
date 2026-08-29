@@ -10,6 +10,10 @@
   icon: 'fa-brands fa-square-instagram'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.instagram.com/yeonkyu.park/'
 
+- type: naverblog
+  icon: 'fa-solid fa-blog'   # icons powered by <https://fontawesome.com/>
+  url:  'https://blog.naver.com/parkyeonkyu/'
+
 - type: pepc
   icon: 'fa-solid fa-industry'   # icons powered by <https://fontawesome.com/>
   url:  'https://yeonkyupark.github.io/pepc3e/'
