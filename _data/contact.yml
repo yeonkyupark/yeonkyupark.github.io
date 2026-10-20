@@ -16,7 +16,7 @@
 
 - type: pepc
   icon: 'fa-solid fa-industry'   # icons powered by <https://fontawesome.com/>
-  url:  'https://yeonkyupark.github.io/pepc3e/'
+  url:  'https://yeonkyupark.github.io/pepc4e/'
 
 - type: python
   icon: 'fa-brands fa-python'   # icons powered by <https://fontawesome.com/>
@@ -28,7 +28,7 @@
 
 - type: namparang
   icon: 'fa-solid fa-route'   # icons powered by <https://fontawesome.com/>
-  url:  'https://yeonkyupark.github.io/KDT-Namparang/'  
+  url:  'https://yeonkyupark.github.io/KDT/'  
 
 - type: slowby
   icon: 'fa-solid fa-stamp'   # icons powered by <https://fontawesome.com/>
